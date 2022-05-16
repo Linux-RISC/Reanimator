@@ -1,18 +1,14 @@
 # IRIX install guide
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle">
 <br>
-<h1 style="color:white;">IRIX install guide</h1>
-<h3 style="color:white;">1. Setting IP client address in Command Monitor</h3>
-<p style="color:white">
+<h3>1. Setting IP client address in Command Monitor</h3>
 To enter Comand Monitor, boot your SGI computer and click on "Stop for Maintenance dialog" or press Esc. Click on "Enter Command Monitor" or press "5" (on Indy, numbers can change on another sgi model).<br>
 Two IP client addresses are available:<br>
 IRIS: <b>setenv netaddr 192.168.9.1</b><br>
 or<br>
 IRIS2: <b>setenv netaddr 192.168.9.2</b><br>
 <br>
-<br>
-<h3 style="color:white;">2. Starting the partition tool in Command Monitor</h3>
-<p style="color:white">
+<h3>2. Starting the partition tool in Command Monitor</h3>
 "Selecting the Correct fx/sash Version" on <a href=https://software.majix.org/irix/install-network.shtml target="_blank">https://software.majix.org/irix/install-network.shtml</a><br>
 <br>
 Check the documentation for your sgi model, several tested examples are provided:<br>
@@ -38,9 +34,7 @@ If the disk partition program won't start, please check:<br>
 &ensp;3. in cases 1 and 2, you can try type the server name before ":", for example: "bootp()rbpi:i/IRIX/6.5.22/ovl1/stand/fx.ARCS -x".<br>
 &ensp;This problem is described on "Bootpd server receives requests, but ignores them." <a href=http://techpubs.spinlocksolutions.com/irix/remote-irix-6.5-installation-from-linux.html target="_blank">http://techpubs.spinlocksolutions.com/irix/remote-irix-6.5-installation-from-linux.html</a> and is logged on /var/log/daemon.log<br>
 <br>
-<br>
-<h3 style="color:white;">3. Partitioning the hard disk</h3>
-<p style="color:white">
+<h3>3. Partitioning the hard disk</h3>
 <a href=http://ibgwww.colorado.edu/~lessem/psyc5112/usail/peripherals/disks/adding/sgi.html target="_blank">http://ibgwww.colorado.edu/~lessem/psyc5112/usail/peripherals/disks/adding/sgi.html</a><br>
 Warning: depending on the documentation used, the procedure can be slightly different. I assume that your drive is neither labeled nor partitioned.<br>
 If you know what you are doing, you could skip some of these steps.<br>
@@ -56,9 +50,7 @@ fx/repartition> rootdrive<br>
 fx/repartition/rootdrive: type of data partition = (xfs)<br>
 fx/repartition> /exit<br>
 <br>
-<br>
-<h3 style="color:white;">4. Starting the installer from network</h3>
-<p style="color:white">
+<h3>4. Starting the installer from network</h3>
 - Enter System Maintenance menu, press 2 or click on "Install system software"<br>
 - Press 1 or click on "From remote directory"<br>
 - Enter "rbpi" or "debian" (according to the installation platform) as "server name", NOT the IP address<br>
@@ -87,16 +79,12 @@ If the installer program won't start, please check:<br>
 &ensp;- Octane2, 6.5.20 and RBPi: bootp():i/IRIX/6.5.30/disc1/stand/sash64 or bootp()rbpi:i/IRIX/6.5.30/disc1/stand/sash64<br>
 &ensp;Check the directories of your IRIX version to find the right installer program.<br>
 <br>
-<br>
-<h3 style="color:white;">5. Formatting root partition using Inst installer program</h3>
-<p style="color:white">
+<h3>5. Formatting root partition using Inst installer program</h3>
 Select option "13. admin" --> "11. mkfs" --> (y)es --> yes --> "21. return" (numbers can change depending on the Inst version)<br>
 When formatting a partition, follow spinlocksolutions's advice:<br>
 "If working with a new disk, the installer will ask to format partitions and the block size to use. Use 4096kB block size for disks larger than 4GB, 512B otherwise."<br>
 <br>
-<br>
-<h3 style="color:white;">6. Installing IRIX</h3>
-<p style="color:white">
+<h3>6. Installing IRIX</h3>
 Load the selections file according to the IRIX version installed. Check the right file on Reanimator's main menu, for example:<br>
 Use "rbpi" or "debian" according to the installation platform<br>
 6.5.22: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/IRIX/6.5.22.txt --> "21. return"<br>
@@ -129,9 +117,7 @@ irix@rbpi:i/IRIX/nfs/dist<br>
 <br>
 Depending on the IRIX version and computer model, the installation procedure can be slightly different. Search videos on Youtube or documentation about IRIX installation on your model.<br>
 <br>
-<br>
-<h3 style="color:white;">7. Tested distributions using Reanimator</h3>
-<p style="color:white">
+<h3>7. Tested distributions using Reanimator</h3>
 6.5.22 on Indy<br>
 6.5.7 on Indy<br>
 6.5.30 on Octane2<br>
@@ -195,9 +181,7 @@ WARNING: there are several IRIX versions depending on the sgi model, if this ver
   - for every path in /home/irix/i/6.2.txt: select option "1. from [source]", add path, "install *" and run "go"<br>
  - after the installation, reboot and check the rest of the directories on /home/irix/i/IRIX/irix53 for patches and additional software<br>
 <br>
-<br>
-<h3 style="color:white;">8. External references</h3>
-<p style="color:white">
+<h3>8. External references</h3>
 ----------<br>
 6.5.30 Octane <a href=https://wiki.preterhuman.net/IRIX_6.5.x_Install_on_Octane target="_blank">https://wiki.preterhuman.net/IRIX_6.5.x_Install_on_Octane</a><br>
  inst> keep *<br>
@@ -228,4 +212,5 @@ The response from the above should finally be "no conflicts", and then you can t
 You can remove conflicts using "conflicts" command or using "remove" command.<br>
 ----------<br>
 <br>
+
 # Enjoy your IRIX installation!
