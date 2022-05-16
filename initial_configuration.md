@@ -1,11 +1,11 @@
 # Initial configuration
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
 <br>
-1. Default IP address<br>
+<h3>1. Default IP address</h3>
 - Raspberry Pi: rbpi, 192.168.9.100<br>
 - VirtualBox: debian, 192.168.9.101<br>
 <br>
-2. Users and passwords<br>
+<h3>2. Users and passwords</h3>
 <table>
   <tr>
     <th>user</th>
@@ -28,10 +28,10 @@
     <td>Debian on VirtualBox, log in to configure this server</td>
   </tr>
 </table>
-<br>
-3. Log in and use the menu to configure network<br>
-<br>
-4. Download IRIX versions using Reanimator menu or copy through the network your own downloads, these services are enabled:<br>
+
+<h3>3. Log in and use the menu to configure network</h3>
+
+<h3>4. Download IRIX versions using Reanimator menu or copy through the network your own downloads, these services are enabled:</h3>
 sudo, ntp client, bootp, tfptp, rsh, ssh, sftp, anonymous FTP, NFS (versions 2, 3, 4, 4.1, 4.2), Samba, AppleTalk, tcpser<br>
 <br>
 This is the directory structure under /home/irix used by Reanimator when downloading IRIX versions:<br>
@@ -66,5 +66,5 @@ This is the directory structure under /home/irix used by Reanimator when downloa
 
 &ensp;/irix65x<br>
 &ensp;&ensp;/...<br>
-<br>
+
 If you avoid Reanimator IRIX downloads, you can download your own IRIX versions, uncompress and upload them to Reanimator using a similar directory structure. For example, use <a href=http://ftp.irixnet.org/sgi-irix/ target="_blank">http://ftp.irixnet.org/sgi-irix/</a> as download site.<br>
