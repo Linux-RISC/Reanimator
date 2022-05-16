@@ -29,7 +29,7 @@
   </tr>
 </table>
 
-<h3>3. Log in and use the menu to configure network</h3>
+<h3>3. Log in and use Reanimator's menu to configure network</h3>
 
 <h3>4. Download IRIX versions using Reanimator menu or copy through the network your own downloads, these services are enabled:</h3>
 sudo, ntp client, bootp, tfptp, rsh, ssh, sftp, anonymous FTP, NFS (versions 2, 3, 4, 4.1, 4.2), Samba, AppleTalk, tcpser<br>
