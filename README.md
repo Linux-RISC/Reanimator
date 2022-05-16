@@ -1,4 +1,6 @@
 # Reanimator
+<img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
+<br>
 Reanimator allows Silicon Graphics IRIX network installation using a Raspberry Pi or VirtualBox<br>
 <br>
 <a href=restoring_image.md target="_blank">Restoring Reanimator image</a><br>
