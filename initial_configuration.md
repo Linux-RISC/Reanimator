@@ -8,24 +8,24 @@
 2. Users and passwords<br>
 <table>
   <tr>
-    <th style="color:white">user</th>
-    <th style="color:white">password</th>
-    <th style="color:white">comment</th>
+    <th>user</th>
+    <th>password</th>
+    <th>comment</th>
   </tr>
   <tr>
-    <td style="color:white">root</td>
-    <td style="color:white">reanimator</td>
-    <td style="color:white">ssh login disabled</td>
+    <td>root</td>
+    <td>reanimator</td>
+    <td>ssh login disabled</td>
   </tr>
   <tr>
-    <td style="color:white">pi</td>
-    <td style="color:white">reanimator</td>
-    <td style="color:white">Debian on Raspberry Pi, log in to configure this server</td>
+    <td>pi</td>
+    <td>reanimator</td>
+    <td>Debian on Raspberry Pi, log in to configure this server</td>
   </tr>
   <tr>
-    <td style="color:white">sgi</td>
-    <td style="color:white">reanimator</td>
-    <td style="color:white">Debian on VirtualBox, log in to configure this server</td>
+    <td>sgi</td>
+    <td>reanimator</td>
+    <td>Debian on VirtualBox, log in to configure this server</td>
   </tr>
 </table>
 <br>
