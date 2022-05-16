@@ -1,5 +1,6 @@
 # Restoring Reanimator image
-
+<img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
+<br>
 1. Restoring Reanimator to a SD Card or in VirtualBox<br>
 1.1 Uncompress the .tar.gz file using for example 7-Zip in Windows or "tar xzvf file.tar.gz" in GNU/Linux<br>
 1.2 Restoring to a SD Card (16 GB or more) for Raspberry Pi<br>
