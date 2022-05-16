@@ -1,5 +1,6 @@
 # Accessing files
-
+<img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
+<br>
 Mount \\192.168.9.100\i or \\192.168.9.101\i, according to the installation platform. Some examples are provided using different network services:<br>
 <br>
 1. Using Samba<br>
