@@ -1,5 +1,6 @@
 # Initial configuration
-
+<img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
+<br>
 1. Default IP address<br>
 - Raspberry Pi: rbpi, 192.168.9.100<br>
 - VirtualBox: debian, 192.168.9.101<br>
