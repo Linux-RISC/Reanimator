@@ -1,6 +1,6 @@
 # IRIX install guide
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle">
-<br>
+
 <h3>1. Setting IP client address in Command Monitor</h3>
 To enter Comand Monitor, boot your SGI computer and click on "Stop for Maintenance dialog" or press Esc. Click on "Enter Command Monitor" or press "5" (on Indy, numbers can change on another sgi model).<br>
 Two IP client addresses are available:<br>
