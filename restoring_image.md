@@ -9,7 +9,7 @@ Windows: <a href=https://www.raspberrypi.org/downloads/ target="_blank">Raspberr
 GNU/Linux:<br>
 - open a terminal<br>
 - check your SD device, for example /dev/mmcblk0<br>
-- sudo dd if=reanimator-Pi-server-SD8GB-no-images.img of=/dev/mmcblk0 bs=4M<br>
+- sudo dd if=Reanimator-Pi-server-SD16GB-no-images.img of=/dev/mmcblk0 bs=4M<br>
 
 <h4>1.3 Restoring to VirtualBox</h4>
 - File -> Virtual media manager -> Add .vdi file extracted<br>
