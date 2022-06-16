@@ -1,7 +1,7 @@
 # Accessing files
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
 <br>
-Mount \\\\192.168.9.100\i or \\\\192.168.9.101\i, according to the installation platform. Some examples are provided using different network services:<br>
+Mount from 192.168.9.100 or 192.168.9.101, according to the installation platform. Some examples are provided using different network services:<br>
 
 <h3>1. Using Samba</h3>
 Windows: Windows key+R and type \\192.168.9.100\i<br>
