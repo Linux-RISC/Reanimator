@@ -22,3 +22,5 @@ This is probably the most <b>common</b> case. If you use a Wi-Fi network to conn
 <img src="Reanimator Wi-Fi.png">
 <br>
 This is the <b>easiest</b> setup to download IRIX versions from the Internet and connect the sgi computer to the Internet, but the Internet speed is <b>limited</b> by the Wi-Fi connection.<br>
+<br>
+This setup <b>requires</b> RBPi model 3 or 4 (they include Wi-Fi interface), untested on early models using a Wi-Fi dongle.<br>
