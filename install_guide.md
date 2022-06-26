@@ -73,10 +73,10 @@ If the installer program won't start, please check:<br>
 &ensp;2. if the problem persists, connect your sgi computer to Reanimator using a straight-through cable, not a crossover.<br>
 &ensp;3. if the problem persists again, you must try to boot the installer program using the "hard way", booting from Command Monitor.<br>
 (pending review) Read this page <a href=https://software.majix.org/irix/install-network.shtml target="_blank">https://software.majix.org/irix/install-network.shtml</a> and select the right command according to your sgi model and IRIX version, for example:<br>
-&ensp;- Indy, 6.5.22 and RBPi: bootp():i/IRIX/6.5.22/ovl1/dist/miniroot/unix.IP22 or bootp()rbpi:i/IRIX/6.5.22/ovl1/dist/miniroot/unix.IP22<br>
-&ensp;- Indy, 6.2 and RBPi: bootp():i/IRIX/irix62/1/stand/sashARCS or bootp()rbpi:i/IRIX/irix62/1/stand/sashARCS<br>
-&ensp;- Indy, 5.3 and RBPi: bootp():i/IRIX/irix53/1/stand/sashARCS or bootp()rbpi:i/IRIX/irix53/1/stand/sashARCS<br>
-&ensp;- Octane2, 6.5.20 and RBPi: bootp():i/IRIX/6.5.30/disc1/stand/sash64 or bootp()rbpi:i/IRIX/6.5.30/disc1/stand/sash64<br>
+&ensp;- Indy, 6.5.22 and RBPi: bootp():IRIX/6.5.22/ovl1/dist/miniroot/unix.IP22 or bootp()rbpi:IRIX/6.5.22/ovl1/dist/miniroot/unix.IP22<br>
+&ensp;- Indy, 6.2 and RBPi: bootp():IRIX/irix62/1/stand/sashARCS or bootp()rbpi:IRIX/irix62/1/stand/sashARCS<br>
+&ensp;- Indy, 5.3 and RBPi: bootp():IRIX/irix53/1/stand/sashARCS or bootp()rbpi:IRIX/irix53/1/stand/sashARCS<br>
+&ensp;- Octane2, 6.5.20 and RBPi: bootp():IRIX/6.5.30/disc1/stand/sash64 or bootp()rbpi:IRIX/6.5.30/disc1/stand/sash64<br>
 &ensp;Check the directories of your IRIX version to find the right installer program.<br>
 <br>
 <h3>5. Formatting root partition using Inst installer program</h3>
