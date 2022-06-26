@@ -213,4 +213,7 @@ You can remove conflicts using "conflicts" command or using "remove" command.<br
 ----------<br>
 <br>
 
+<h3>9. Sample videos</h3>
+[https://www.youtube.com/watch?v=cjAT91gEH6k&list=PL7fOFTpu7rt0pGycf3D7yzQoeMjlup-tz&index=1](https://www.youtube.com/watch?v=cjAT91gEH6k&list=PL7fOFTpu7rt0pGycf3D7yzQoeMjlup-tz)
+
 # Enjoy your IRIX installation!
