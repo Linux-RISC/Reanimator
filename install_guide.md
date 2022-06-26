@@ -13,17 +13,17 @@ IRIS2: <b>setenv netaddr 192.168.9.2</b><br>
 <br>
 Check the documentation for your sgi model, several tested examples are provided:<br>
 Indy:<br>
-<b>bootp():i/IRIX/6.5.22/ovl1/stand/fx.ARCS -x</b><br>
-<b>bootp():i/IRIX/irix53/1/stand/fx.ARCS -x</b><br>
-<b>bootp():i/IRIX/irix62/1/stand/fx.ARCS -x</b><br>
+<b>bootp():IRIX/6.5.22/ovl1/stand/fx.ARCS -x</b><br>
+<b>bootp():IRIX/irix53/1/stand/fx.ARCS -x</b><br>
+<b>bootp():IRIX/irix62/1/stand/fx.ARCS -x</b><br>
 <br>
 Octane2:<br>
-<b>bootp():i/IRIX/6.5.30/disc1/stand/fx.64 -x</b><br>
+<b>bootp():IRIX/6.5.30/disc1/stand/fx.64 -x</b><br>
 <br>
 ** tip **<br>
 - define a "part" variable in Command Monitor:<br>
-Indy: <b>setenv -p part "bootp():i/IRIX/6.5.22/ovl1/stand/fx.ARCS -x"</b><br>
-Octane2: <b>setenv -p part "bootp():i/IRIX/6.5.30/disc1/stand/fx.64 -x"</b><br>
+Indy: <b>setenv -p part "bootp():IRIX/6.5.22/ovl1/stand/fx.ARCS -x"</b><br>
+Octane2: <b>setenv -p part "bootp():IRIX/6.5.30/disc1/stand/fx.64 -x"</b><br>
 <br>
 This way, you can run $part in Command Monitor to easily start the disk partitioning program<br>
 <br>
@@ -31,7 +31,7 @@ This way, you can run $part in Command Monitor to easily start the disk partitio
 If the disk partition program won't start, please check:<br>
 &ensp;1. netaddr is properly configured in Command Monitor.<br>
 &ensp;2. if the problem persists, connect your sgi computer to Reanimator using a straight-through cable, not a crossover.<br>
-&ensp;3. in cases 1 and 2, you can try type the server name before ":", for example: "bootp()rbpi:i/IRIX/6.5.22/ovl1/stand/fx.ARCS -x".<br>
+&ensp;3. in cases 1 and 2, you can try type the server name before ":", for example: "bootp()rbpi:IRIX/6.5.22/ovl1/stand/fx.ARCS -x".<br>
 &ensp;This problem is described on "Bootpd server receives requests, but ignores them." <a href=http://techpubs.spinlocksolutions.com/irix/remote-irix-6.5-installation-from-linux.html target="_blank">http://techpubs.spinlocksolutions.com/irix/remote-irix-6.5-installation-from-linux.html</a> and is logged on /var/log/daemon.log<br>
 <br>
 <h3>3. Partitioning the hard disk</h3>
@@ -56,11 +56,11 @@ fx/repartition> /exit<br>
 - Enter "rbpi" or "debian" (according to the installation platform) as "server name", NOT the IP address<br>
 - For example:<br>
 Indy:<br>
-i/IRIX/6.5.22/ovl1/dist<br>
-i/IRIX/irix53/1/dist<br>
+IRIX/6.5.22/ovl1/dist<br>
+IRIX/irix53/1/dist<br>
 <br>
 Octane2:<br>
-i/IRIX/6.5.30/disc1/dist for Octane2<br>
+IRIX/6.5.30/disc1/dist for Octane2<br>
 SKIP "/" before "i"<br>
 <br>
 If asked for system name or IP, specify the name/IP according the netaddr variable in Command Monitor:<br>
