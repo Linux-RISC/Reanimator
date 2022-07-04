@@ -15,7 +15,7 @@ boot ewa0
 
 ```
 set ewa0_protocols bootp
-boot -f my_boot_filename ewa0
+boot -file my_boot_filename ewa0
 ```
 https://youtu.be/cjAT91gEH6k<br>
 https://youtu.be/1uvcMV_5HZc<br>
