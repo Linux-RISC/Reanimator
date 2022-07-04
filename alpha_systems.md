@@ -11,6 +11,12 @@
 set ewa0_protocols bootp
 boot ewa0
 ```
+- if you want to go fast avoiding configuration, run on SRM:<br>
+
+```
+set ewa0_protocols bootp
+boot -f my_boot_filename ewa0
+```
 https://youtu.be/cjAT91gEH6k<br>
 https://youtu.be/1uvcMV_5HZc<br>
 
