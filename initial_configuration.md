@@ -34,6 +34,7 @@
 - GNU/Linux: run on a shell <b>ssh pi@192.168.9.100</b> for Rasberry Pi or <b>ssh sgi@192.168.9.101</b> for VirtualBox.<br>
 <br>
 Example of Reanimator's menu:<br>
+
 ```
  --------------------------------------------------- 
 | REANIMATOR server v1.1 - http://irix.mersisl.com/ |
