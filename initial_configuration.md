@@ -33,6 +33,7 @@
 - Windows: use <a href="https://www.putty.org/" target="_blank">putty</a> to connect to Reanimator and use the table above to select user and IP address.<br>
 - GNU/Linux: run on a shell <b>ssh pi@192.168.9.100</b> for Rasberry Pi or <b>ssh sgi@192.168.9.101</b> for VirtualBox.<br>
 Example of Reanimator's menu:
+
 ```
  --------------------------------------------------- 
 | REANIMATOR server v1.1 - http://irix.mersisl.com/ |
