@@ -72,7 +72,6 @@ Default clients defined in /etc/bootptab and /etc/hosts: IRIS:ip=192.168.9.1 and
 99. Exit
 enter your selection:
 ```
-<br>
 <h3>4. Download IRIX versions using Reanimator menu or copy through the network your own downloads, these services are enabled:</h3>
 sudo, ntp client, bootp, tfptp, rsh, ssh, sftp, anonymous FTP, NFS (versions 2, 3, 4, 4.1, 4.2), Samba, AppleTalk, tcpser<br>
 <br>
