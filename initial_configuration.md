@@ -30,8 +30,8 @@
 </table>
 
 <h3>3. Log in and use Reanimator's menu to configure network</h3>
-- Windows: use <a href="https://www.putty.org/">putty</a>, use the table above to select user and IP address.<br>
-- GNU/Linux: run on a shell ssh pi@192.168.9.100 for Rasberry Pi or ssh sgi@192.168.9.101 for VirtualBox.<br>
+- Windows: use <a href="https://www.putty.org/">putty</a> to connect to Reanimator and use the table above to select user and IP address.<br>
+- GNU/Linux: run on a shell <b>ssh pi@192.168.9.100</b> for Rasberry Pi or ssh sgi@192.168.9.101 for VirtualBox.<br>
 
 <h3>4. Download IRIX versions using Reanimator menu or copy through the network your own downloads, these services are enabled:</h3>
 sudo, ntp client, bootp, tfptp, rsh, ssh, sftp, anonymous FTP, NFS (versions 2, 3, 4, 4.1, 4.2), Samba, AppleTalk, tcpser<br>
