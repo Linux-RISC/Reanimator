@@ -32,6 +32,44 @@
 <h3>3. Log in and use Reanimator's menu to configure network</h3>
 - Windows: use <a href="https://www.putty.org/" target="_blank">putty</a> to connect to Reanimator and use the table above to select user and IP address.<br>
 - GNU/Linux: run on a shell <b>ssh pi@192.168.9.100</b> for Rasberry Pi or <b>ssh sgi@192.168.9.101</b> for VirtualBox.<br>
+Example of Reanimator's menu:
+```
+ --------------------------------------------------- 
+| REANIMATOR server v1.1 - http://irix.mersisl.com/ |
+ --------------------------------------------------- 
+
+* enabled services *
+sudo, ntp client, bootp, tfptp, rsh, ssh, sftp, anonymous FTP, NFS (versions 2, 3, 4, 4.1, 4.2), Samba, AppleTalk
+
+* selections file templates *
+selection file                    system software path            common partition command
+irix@rbpi:i/MIPSPro.txt
+irix@rbpi:i/5.3.txt               i/IRIX/irix53/1/dist            bootp():IRIX/irix53/1/stand/fx.ARCS
+irix@rbpi:i/6.2.txt               i/IRIX/irix62/1/dist            bootp():IRIX/irix62/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.0.txt             i/IRIX/irix650/1/dist           bootp():IRIX/irix650/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.7.txt             i/IRIX/irix657/1/dist           bootp():IRIX/irix657/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.22.txt            i/IRIX/6.5.22/ovl1/dist         bootp():IRIX/6.5.22/ovl1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.30.txt            i/IRIX/6.5.30/disc1/dist        bootp():IRIX/6.5.30/disc1/stand/fx.ARCS or fx.64
+
+name of the server: rbpi(Raspberry Pi 192.168.9.100) or debian(VirtualBox 192.168.9.101)
+Default clients defined in /etc/bootptab and /etc/hosts: IRIS:ip=192.168.9.1 and IRIS2:ip=192.168.9.2
+
+0. Show changelog.txt
+1. Network configuration menu
+2. Download menu
+3. Automount ISO images menu
+4. Mount /dev/sda1 menu (Raspberry Pi only)
+5. tcpser menu - emulate a Hayes compatible modem
+6. Diskless workstation menu
+
+10. Get Reanimator scripts updated from the Internet
+11. Update this system
+12. Reboot this system
+13. Shut down this system
+
+99. Exit
+enter your selection:
+```
 
 <h3>4. Download IRIX versions using Reanimator menu or copy through the network your own downloads, these services are enabled:</h3>
 sudo, ntp client, bootp, tfptp, rsh, ssh, sftp, anonymous FTP, NFS (versions 2, 3, 4, 4.1, 4.2), Samba, AppleTalk, tcpser<br>
