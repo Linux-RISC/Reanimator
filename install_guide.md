@@ -126,8 +126,8 @@ Depending on the IRIX version and computer model, the installation procedure can
  inst> conflicts<br>
  inst> conflicts 1a 2a ... until no conflicts<br>
  inst> go<br>
-<br>
 ----------<br>
+<br>
 6.5.0 on Indy<br>
 In this case, selections file <b>won't work</b>, so you must write the paths manually: select option "1. from [source]" and add the right paths, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
 <br>
@@ -165,6 +165,7 @@ WARNING: there are several IRIX versions depending on the sgi model, if this ver
  - run inst as root <br>
  - for every path in /home/irix/i/5.3.txt: select option "1. from [source]", add path, "install *" and run "go"<br>
  - after the installation, reboot and check the rest of directories on /home/irix/i/IRIX/irix53 for patches and additional software<br>
+----------<br>
 <br>
 6.2 on Indy<br>
  select option "1. from [source]" and add irix@rbpi:i/IRIX/irix62/1/dist<br>
@@ -178,8 +179,23 @@ WARNING: there are several IRIX versions depending on the sgi model, if this ver
  - a minimum window manager is started and the network is configured with IP address 192.168.9.1<br>
  - add "rbpi 192.168.9.100" to /etc/hosts (I used vi)<br>
  - run inst as root <br>
-  - for every path in /home/irix/i/6.2.txt: select option "1. from [source]", add path, "install *" and run "go"<br>
+ - for every path in /home/irix/i/6.2.txt: select option "1. from [source]", add path, "install *" and run "go"<br>
  - after the installation, reboot and check the rest of the directories on /home/irix/i/IRIX/irix53 for patches and additional software<br>
+----------<br>
+<br>
+6.3 on O2 R5k<br>
+ select option "1. from [source]" and add irix@rbpi:i/IRIX/irix63/1/dist and irix@rbpi:i/IRIX/irix63/apps/dist<br>
+ inst> install *<br>
+ inst> conflicts<br>
+ inst> conflicts 1a 2a ... until no conflicts<br>
+ inst> go<br>
+ after the installation process:<br>
+ - select option "12. quit"<br>
+ - reboot the system<br>
+ - configure the network with IP address 192.168.9.1 using System --> System Manager --> Network Setup on Toolchest<br>
+ - add "rbpi 192.168.9.100" to /etc/hosts (I used vi)<br>
+ - run inst as root <br>
+ - for every path in /home/irix/i/6.3.txt: select option "1. from [source]", add path, "install *" and run "go"<br>
 <br>
 <h3>8. External references</h3>
 ----------<br>
