@@ -212,19 +212,17 @@ WARNING: there are several IRIX versions depending on the sgi model, if this ver
  - after the installation, reboot and check the rest of the directories on /home/irix/i/IRIX/irix53 for patches and additional software<br>
 ----------<br>
 <br>
-6.3 on O2 R5k<br>
+6.3 on O2 R5k (tested by kikems)<br>
  select option "1. from [source]" and add irix@rbpi:i/IRIX/irix63/1/dist<br>
  inst> install *<br>
  inst> conflicts<br>
  inst> conflicts 1a 2a ... until no conflicts<br>
  inst> go<br>
- <br>
  select option "1. from [source]" and add irix@rbpi:i/IRIX/irix63/apps/dist<br>
  inst> install *<br>
  inst> conflicts<br>
  inst> conflicts 1a 2a ... until no conflicts<br>
  inst> go<br>
- <br>
  after the installation process:<br>
  - select option "12. quit"<br>
  - reboot the system<br>
