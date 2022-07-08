@@ -61,7 +61,32 @@ IRIX/irix53/1/dist<br>
 <br>
 Octane2:<br>
 IRIX/6.5.30/disc1/dist for Octane2<br>
-SKIP "/" before "i"<br>
+<br>
+General table for each IRIX version:<br>
+<table>
+  <tr>
+    <th>IRIX version</th>
+    <th>Remote directory</th>
+  </tr>
+  <tr>
+    <td>5.3</td>
+    <td>6.2</td>
+    <td>6.3</td>
+    <td>6.5.0</td>
+    <td>6.5.7</td>
+    <td>6.5.22</td>
+    <td>6.5.30</td>
+  </tr>
+  <tr>
+    <td>IRIX/irix53/1/dist</td>
+    <td>IRIX/irix62/1/dist</td>
+    <td>IRIX/irix63/1/dist</td>
+    <td>IRIX/irix650/1/dist</td>
+    <td>IRIX/irix657/1/dist</td>
+    <td>IRIX/6.5.22/ovl1/dist</td>
+    <td>IRIX/6.5.30/disc1/dist</td>
+  </tr>
+</table>
 <br>
 If asked for system name or IP, specify the name/IP according the netaddr variable in Command Monitor:<br>
 IRIS for 192.168.9.1<br>
