@@ -58,7 +58,6 @@ fx/repartition> /exit<br>
 - For example:<br>
 Indy:<br>
 IRIX/6.5.22/ovl1/dist<br>
-IRIX/irix53/1/dist<br>
 <br>
 Octane2:<br>
 IRIX/6.5.30/disc1/dist for Octane2<br>
