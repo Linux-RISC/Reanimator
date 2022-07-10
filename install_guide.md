@@ -213,7 +213,8 @@ after the installation process:<br>
 - configure the network with IP address 192.168.9.1 using System --> System Manager --> Network Setup on Toolchest<br>
 - add "rbpi 192.168.9.100" to /etc/hosts (I used vi)<br>
 - check the rest of directories on /home/irix/i/IRIX/irix63 for patches and additional software:<br>
-/home/irix/i/IRIX/irix63/patches/dist. You can install this patch using the source irix@rbpi:i/IRIX/irix63/patches/dist and inst or swmgr as root<br>
+/home/irix/i/IRIX/irix63/patches/dist<br>
+You can install this patch running inst or swmgr as root and the source irix@rbpi:i/IRIX/irix63/patches/dist<br>
 ----------<br>
 <br>
 5.3 on Indy<br>
