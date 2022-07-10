@@ -123,55 +123,13 @@ Use "rbpi" or "debian" according to the installation platform<br>
 If there is no selections file for your IRIX version, you must write the paths manually: select option "1. from [source]" and add the right paths, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
 <br>
 Indy: use "rbpi" or "debian" according to the installation platform<br>
-<table>
-  <tr>
-    <th>source path</th>
-    <th>comment</th>
-  </tr>
-  <tr>
-    <td>irix@rbpi:i/IRIX/6.5.22/ovl1/dist</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>irix@rbpi:i/IRIX/6.5.22/ovl2/dist</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>irix@rbpi:i/IRIX/6.5.22/ovl3/dist</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>irix@rbpi:i/IRIX/6.5.22/apps/dist</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>irix@rbpi:i/IRIX/irix65x/f1/dist</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>irix@rbpi:i/IRIX/irix65x/f2/dist</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>irix@rbpi:i/IRIX/nfs/dist</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>irix@rbpi:i/IRIX/irix65x/devl/dist</td>
-    <td>optional</td>
-  </tr>
-  <tr>
-    <td>irix@rbpi:i/IRIX/irix65x/devf13/dist</td>
-    <td>optional</td>
-  </tr>
-</table>
 irix@rbpi:i/IRIX/6.5.22/ovl1/dist<br>
 irix@rbpi:i/IRIX/6.5.22/ovl2/dist<br>
 irix@rbpi:i/IRIX/6.5.22/ovl3/dist<br>
 irix@rbpi:i/IRIX/6.5.22/apps/dist<br>
 irix@rbpi:i/IRIX/irix65x/f1/dist<br>
 irix@rbpi:i/IRIX/irix65x/f2/dist<br>
-irix@rbpi:i/IRIX/nfs/dist<br>
+irix@rbpi:i/IRIX/irix65x/nfs/dist<br>
 (optional) irix@rbpi:i/IRIX/irix65x/devl/dist<br>
 (optional) irix@rbpi:i/IRIX/irix65x/devf13/dist<br>
 <br>
@@ -183,7 +141,7 @@ irix@rbpi:i/IRIX/6.5.30/apps/dist<br>
 irix@rbpi:i/IRIX/6.5.30/capps/dist<br>
 irix@rbpi:i/IRIX/irix65x/f1/dist<br>
 irix@rbpi:i/IRIX/irix65x/f2/dist<br>
-irix@rbpi:i/IRIX/nfs/dist<br>
+irix@rbpi:i/IRIX/irix65x/nfs/dist<br>
 (optional) irix@rbpi:i/IRIX/irix65x/devl/dist<br>
 (optional) irix@rbpi:i/IRIX/irix65x/devf13/dist<br>
 <br>
@@ -192,7 +150,17 @@ Depending on the IRIX version and computer model, the installation procedure can
 <h3>7. Tested distributions using Reanimator</h3>
 6.5.22 on Indy<br>
 6.5.7 on Indy<br>
+irix@rbpi:i/IRIX/irix657/1/dist
+irix@rbpi:i/IRIX/irix657/2/dist
+irix@rbpi:i/IRIX/irix657/apps/dist
+(optional) irix@rbpi:i/IRIX/irix65x/devf/dist
+(optional) irix@rbpi:i/IRIX/irix65x/devl/dist
+irix@rbpi:i/IRIX/irix65x/f1/dist
+irix@rbpi:i/IRIX/irix65x/f2/dist
+irix@rbpi:i/IRIX/irix65x/nfs/dist
+
 6.5.30 on Octane2<br>
+
 <br>
  inst> install maintenance<br>
  inst> conflicts<br>
