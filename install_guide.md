@@ -251,7 +251,6 @@ after the installation process:<br>
 - check the rest of directories on /home/irix/i/IRIX/irix62 for patches and additional software:<br>
 /home/irix/i/IRIX/irix62/patches/dist<br>
 /home/irix/i/IRIX/irix62/y2k_patch<br>
-----------<br>
 <br>
 <h3>8. External references</h3>
 ----------<br>
