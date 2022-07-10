@@ -196,39 +196,6 @@ inst> conflicts 1a 2a ... until no conflicts<br>
 inst> go<br>
 ----------<br>
 <br>
-5.3 on Indy<br>
-WARNING: there are several IRIX versions depending on the sgi model, if this version doesn't work, please check another versions on <a href=http://ftp.irixnet.org/sgi-irix/irix-5.3/ target="_blank">http://ftp.irixnet.org/sgi-irix/irix-5.3/</a> or <a href=http://jrra.zone/sgi/#pg-7 target="_blank">http://jrra.zone/sgi/#pg-7</a><br>
-- for every source in /home/irix/i/5.3.txt: select option "1. from [source]", add the source and run "go". These are the sources:<br>
-irix@rbpi:i/IRIX/irix53/1/dist<br>
-irix@rbpi:i/IRIX/irix53/dev53/dist<br>
-irix@rbpi:i/IRIX/irix53/gzip/dist<br>
-irix@rbpi:i/IRIX/irix53/nfs/dist<br>
-<br>
-after the installation process:<br>
-- select option "12. quit"<br>
-- reboot the system<br>
-- configure the network with IP address 192.168.9.1 using System --> System Manager --> Network Setup on Toolchest<br>
-- add "rbpi 192.168.9.100" to /etc/hosts (I used vi)<br>
-- check the rest of directories on /home/irix/i/IRIX/irix53 for patches and additional software<br>
-----------<br>
-<br>
-6.2 on Indy<br>
-- for every source in /home/irix/i/6.2.txt: select option "1. from [source]", add the source and run "go". These are the sources:<br>
-irix@rbpi:i/IRIX/irix62/1/dist<br>
-irix@rbpi:i/IRIX/irix62/2/dist<br>
-irix@rbpi:i/IRIX/irix62/apps/dist<br>
-irix@rbpi:i/IRIX/irix62/nfs62/dist<br>
-(optional) irix@rbpi:i/IRIX/irix62/devf<br>
-(optional) irix@rbpi:i/IRIX/irix62/devlibs<br>
-<br>
-after the installation process:<br>
-- select option "12. quit"<br>
-- reboot the system<br>
-- configure the network with IP address 192.168.9.1 using System --> System Manager --> Network Setup on Toolchest<br>
-- add "rbpi 192.168.9.100" to /etc/hosts (I used vi)<br>
-- check the rest of directories on /home/irix/i/IRIX/irix53 for patches and additional software<br>
-----------<br>
-<br>
 6.3 on O2 R5k (tested by kikems)<br>
  select option "1. from [source]" and add irix@rbpi:i/IRIX/irix63/1/dist<br>
  inst> install *<br>
@@ -247,6 +214,40 @@ after the installation process:<br>
  - add "rbpi 192.168.9.100" to /etc/hosts (I used vi)<br>
  - run inst as root <br>
  - for every sources in /home/irix/i/6.3.txt: select option "1. from [source]", add sources, "install *" and run "go"<br>
+----------<br>
+<br>
+5.3 on Indy<br>
+WARNING: there are several IRIX versions depending on the sgi model, if this version doesn't work, please check another versions on <a href=http://ftp.irixnet.org/sgi-irix/irix-5.3/ target="_blank">http://ftp.irixnet.org/sgi-irix/irix-5.3/</a> or <a href=http://jrra.zone/sgi/#pg-7 target="_blank">http://jrra.zone/sgi/#pg-7</a><br>
+- for every source in /home/irix/i/5.3.txt: select option "1. from [source]", add the source and run "go". These are the sources:<br>
+irix@rbpi:i/IRIX/irix53/1/dist<br>
+irix@rbpi:i/IRIX/irix53/dev53/dist<br>
+irix@rbpi:i/IRIX/irix53/gzip/dist<br>
+irix@rbpi:i/IRIX/irix53/nfs/dist<br>
+<br>
+after the installation process:<br>
+- select option "12. quit"<br>
+- reboot the system<br>
+- configure the network with IP address 192.168.9.1 using System --> System Manager --> Network Setup on Toolchest<br>
+- add "rbpi 192.168.9.100" to /etc/hosts (I used vi)<br>
+- check the rest of directories on /home/irix/i/IRIX/irix53 for patches and additional software<br>
+----------<br>
+<br>
+6.2 on Indy. This procedure is similar to 5.3 installation<br>
+- for every source in /home/irix/i/6.2.txt: select option "1. from [source]", add the source and run "go". These are the sources:<br>
+irix@rbpi:i/IRIX/irix62/1/dist<br>
+irix@rbpi:i/IRIX/irix62/2/dist<br>
+irix@rbpi:i/IRIX/irix62/apps/dist<br>
+irix@rbpi:i/IRIX/irix62/nfs62/dist<br>
+(optional) irix@rbpi:i/IRIX/irix62/devf<br>
+(optional) irix@rbpi:i/IRIX/irix62/devlibs<br>
+<br>
+after the installation process:<br>
+- select option "12. quit"<br>
+- reboot the system<br>
+- configure the network with IP address 192.168.9.1 using System --> System Manager --> Network Setup on Toolchest<br>
+- add "rbpi 192.168.9.100" to /etc/hosts (I used vi)<br>
+- check the rest of directories on /home/irix/i/IRIX/irix62 for patches and additional software<br>
+----------<br>
 <br>
 <h3>8. External references</h3>
 ----------<br>
