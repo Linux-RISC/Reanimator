@@ -161,7 +161,7 @@ irix@rbpi:i/IRIX/irix65x/nfs/dist<br>
 <br>
 Depending on the IRIX version and computer model, the installation procedure can be slightly different. Search videos on Youtube or documentation about IRIX installation on your model.<br>
 <br>
-<h3>7. Tested distributions using Reanimator</h3>
+<h3>7. Tested IRIX versions using Reanimator</h3>
 6.5.22 on Indy<br>
 6.5.7 on Indy<br>
 6.5.30 on Octane2<br>
