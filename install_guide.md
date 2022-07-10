@@ -124,7 +124,7 @@ Use "rbpi" or "debian" according to the installation platform<br>
 6.5.30: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.30.txt --> "21. return"<br>
 6.5.7: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.7.txt --> "21. return"<br>
 <br>
-If there is no selections file for your IRIX version, you must write the paths manually: select option "1. from [source]" and add the right paths, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
+If there is no selections file for your IRIX version, you must write the sources manually: select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
 <br>
 Indy: use "rbpi" or "debian" according to the installation platform<br>
 irix@rbpi:i/IRIX/6.5.22/ovl1/dist<br>
@@ -173,7 +173,7 @@ Depending on the IRIX version and computer model, the installation procedure can
 ----------<br>
 <br>
 6.5.0 on Indy<br>
-In this case, selections file <b>won't work</b>, so you must write the paths manually: select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
+In this case, selections file <b>won't work</b>, so you must write the sources manually: select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
 <br>
 Use "rbpi" or "debian" according to the installation platform. These are the sources:<br>
 irix@rbpi:i/IRIX/irix650/1/dist<br>
@@ -246,7 +246,7 @@ after the installation process:<br>
  - configure the network with IP address 192.168.9.1 using System --> System Manager --> Network Setup on Toolchest<br>
  - add "rbpi 192.168.9.100" to /etc/hosts (I used vi)<br>
  - run inst as root <br>
- - for every path in /home/irix/i/6.3.txt: select option "1. from [source]", add path, "install *" and run "go"<br>
+ - for every sources in /home/irix/i/6.3.txt: select option "1. from [source]", add sources, "install *" and run "go"<br>
 <br>
 <h3>8. External references</h3>
 ----------<br>
