@@ -150,15 +150,15 @@ Depending on the IRIX version and computer model, the installation procedure can
 <h3>7. Tested distributions using Reanimator</h3>
 6.5.22 on Indy<br>
 6.5.7 on Indy<br>
-irix@rbpi:i/IRIX/irix657/1/dist
-irix@rbpi:i/IRIX/irix657/2/dist
-irix@rbpi:i/IRIX/irix657/apps/dist
-(optional) irix@rbpi:i/IRIX/irix65x/devf/dist
-(optional) irix@rbpi:i/IRIX/irix65x/devl/dist
-irix@rbpi:i/IRIX/irix65x/f1/dist
-irix@rbpi:i/IRIX/irix65x/f2/dist
-irix@rbpi:i/IRIX/irix65x/nfs/dist
-
+irix@rbpi:i/IRIX/irix657/1/dist<br>
+irix@rbpi:i/IRIX/irix657/2/dist<br>
+irix@rbpi:i/IRIX/irix657/apps/dist<br>
+(optional) irix@rbpi:i/IRIX/irix65x/devf/dist<br>
+(optional) irix@rbpi:i/IRIX/irix65x/devl/dist<br>
+irix@rbpi:i/IRIX/irix65x/f1/dist<br>
+irix@rbpi:i/IRIX/irix65x/f2/dist<br>
+irix@rbpi:i/IRIX/irix65x/nfs/dist<br>
+<br>
 6.5.30 on Octane2<br>
 
 <br>
