@@ -196,7 +196,7 @@ inst> conflicts 1a 2a ... until no conflicts<br>
 inst> go<br>
 ----------<br>
 <br>
-6.3 on O2 R5k (tested by kikems). This procedure is similar to IRIX 6.5.0 installation<br>
+6.3 (for O2 R5k/R10k) on O2 R5k (tested by kikems). This procedure is similar to IRIX 6.5.0 installation<br>
 - select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
 <br>
 Use "rbpi" or "debian" according to the installation platform. These are the sources:<br>
