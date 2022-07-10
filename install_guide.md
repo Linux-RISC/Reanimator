@@ -206,6 +206,8 @@ irix@rbpi:i/IRIX/irix63/apps/dist<br>
 (optional) irix@rbpi:i/IRIX/irix63/devf/dist<br>
 irix@rbpi:i/IRIX/irix63/nfs/dist<br>
 <br>
+The required disk space is ~500 MB and ~890 MB if your include the development sources.<br>
+<br>
 after the installation process:<br>
 - select option "12. quit"<br>
 - reboot the system<br>
