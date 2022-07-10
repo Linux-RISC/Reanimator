@@ -17,9 +17,13 @@ Indy:<br>
 <b>bootp():IRIX/6.5.22/ovl1/stand/fx.ARCS -x</b><br>
 <b>bootp():IRIX/irix53/1/stand/fx.ARCS -x</b><br>
 <b>bootp():IRIX/irix62/1/stand/fx.ARCS -x</b><br>
+<b>bootp():IRIX/irix650/1/stand/fx.ARCS -x</b><br>
+<b>bootp():IRIX/irix657/1/stand/fx.ARCS -x</b><br>
 <br>
 Octane2:<br>
 <b>bootp():IRIX/6.5.30/disc1/stand/fx.64 -x</b><br>
+<b>bootp():IRIX/irix650/1/stand/fx.64 -x</b><br>
+<b>bootp():IRIX/irix657/1/stand/fx.64 -x</b><br>
 <br>
 ** tip **<br>
 - define a "part" variable in Command Monitor:<br>
