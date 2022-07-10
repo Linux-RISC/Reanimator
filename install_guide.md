@@ -208,7 +208,7 @@ irix@rbpi:i/IRIX/irix63/nfs/dist<br>
 <br>
 The required disk space is ~500 MB and ~890 MB if your include the development sources.<br>
 <br>
-after the installation process:<br>
+After the installation process:<br>
 - select option "12. quit"<br>
 - reboot the system<br>
 - configure the network with IP address 192.168.9.1 using System --> System Manager --> Network Setup on Toolchest<br>
@@ -226,7 +226,7 @@ irix@rbpi:i/IRIX/irix53/dev53/dist<br>
 irix@rbpi:i/IRIX/irix53/gzip/dist<br>
 irix@rbpi:i/IRIX/irix53/nfs/dist<br>
 <br>
-after the installation process:<br>
+After the installation process:<br>
 - select option "12. quit"<br>
 - reboot the system<br>
 - configure the network with IP address 192.168.9.1 using System --> System Manager --> Network Setup on Toolchest<br>
@@ -245,7 +245,7 @@ irix@rbpi:i/IRIX/irix62/nfs62/dist<br>
 (optional) irix@rbpi:i/IRIX/irix62/devf<br>
 (optional) irix@rbpi:i/IRIX/irix62/devlibs<br>
 <br>
-after the installation process:<br>
+After the installation process:<br>
 - select option "12. quit"<br>
 - reboot the system<br>
 - configure the network with IP address 192.168.9.1 using System --> System Manager --> Network Setup on Toolchest<br>
