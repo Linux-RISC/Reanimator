@@ -145,11 +145,7 @@ irix@rbpi:i/IRIX/irix65x/nfs/dist<br>
 (optional) irix@rbpi:i/IRIX/irix65x/devl/dist<br>
 (optional) irix@rbpi:i/IRIX/irix65x/devf13/dist<br>
 <br>
-Depending on the IRIX version and computer model, the installation procedure can be slightly different. Search videos on Youtube or documentation about IRIX installation on your model.<br>
-<br>
-<h3>7. Tested distributions using Reanimator</h3>
-6.5.22 on Indy<br>
-6.5.7 on Indy<br>
+For version 6.5.7:<br>
 irix@rbpi:i/IRIX/irix657/1/dist<br>
 irix@rbpi:i/IRIX/irix657/2/dist<br>
 irix@rbpi:i/IRIX/irix657/apps/dist<br>
@@ -159,8 +155,12 @@ irix@rbpi:i/IRIX/irix65x/f1/dist<br>
 irix@rbpi:i/IRIX/irix65x/f2/dist<br>
 irix@rbpi:i/IRIX/irix65x/nfs/dist<br>
 <br>
+Depending on the IRIX version and computer model, the installation procedure can be slightly different. Search videos on Youtube or documentation about IRIX installation on your model.<br>
+<br>
+<h3>7. Tested distributions using Reanimator</h3>
+6.5.22 on Indy<br>
+6.5.7 on Indy<br>
 6.5.30 on Octane2<br>
-
 <br>
  inst> install maintenance<br>
  inst> conflicts<br>
