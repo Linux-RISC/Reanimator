@@ -1,4 +1,4 @@
-Last update: 2022/06/26
+Last update: 2022/07/10
 # Reanimator
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
 <br>
