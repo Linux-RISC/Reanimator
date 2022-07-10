@@ -149,7 +149,7 @@ irix@rbpi:i/IRIX/irix65x/nfs/dist<br>
 (optional) irix@rbpi:i/IRIX/irix65x/devl/dist<br>
 (optional) irix@rbpi:i/IRIX/irix65x/devf13/dist<br>
 <br>
-For version 6.5.7:<br>
+For IRIX 6.5.7: use "rbpi" or "debian" according to the installation platform<br>
 irix@rbpi:i/IRIX/irix657/1/dist<br>
 irix@rbpi:i/IRIX/irix657/2/dist<br>
 irix@rbpi:i/IRIX/irix657/apps/dist<br>
