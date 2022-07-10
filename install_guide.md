@@ -174,6 +174,8 @@ In this case, selections file <b>won't work</b>, so you must write the paths man
 Use "rbpi" or "debian" according to the installation platform<br>
 irix@rbpi:i/IRIX/irix650/1/dist<br>
 irix@rbpi:i/IRIX/irix650/apps/dist<br>
+(optional) irix@rbpi:i/IRIX/irix65x/devf/dist<br>
+(optional) irix@rbpi:i/IRIX/irix65x/devl/dist<br>
 irix@rbpi:i/IRIX/irix65x/f1/dist<br>
 irix@rbpi:i/IRIX/irix65x/f2/dist<br>
 irix@rbpi:i/IRIX/irix65x/nfs/dist<br>
