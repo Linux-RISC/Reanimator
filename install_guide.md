@@ -199,12 +199,12 @@ inst> go<br>
 5.3 on Indy<br>
 WARNING: there are several IRIX versions depending on the sgi model, if this version doesn't work, please check another versions on <a href=http://ftp.irixnet.org/sgi-irix/irix-5.3/ target="_blank">http://ftp.irixnet.org/sgi-irix/irix-5.3/</a> or <a href=http://jrra.zone/sgi/#pg-7 target="_blank">http://jrra.zone/sgi/#pg-7</a><br>
  - for every source in /home/irix/i/5.3.txt: select option "1. from [source]", add the source and run "go"<br>
- - these are the sources:
-irix@rbpi:i/IRIX/irix53/1/dist
-irix@rbpi:i/IRIX/irix53/dev53/dist
-irix@rbpi:i/IRIX/irix53/gzip/dist
-irix@rbpi:i/IRIX/irix53/nfs/dist
-
+ - these are the sources:<br>
+irix@rbpi:i/IRIX/irix53/1/dist<br>
+irix@rbpi:i/IRIX/irix53/dev53/dist<br>
+irix@rbpi:i/IRIX/irix53/gzip/dist<br>
+irix@rbpi:i/IRIX/irix53/nfs/dist<br>
+<br>
 after the installation process:<br>
 - select option "12. quit"<br>
 - reboot the system<br>
@@ -215,14 +215,14 @@ after the installation process:<br>
 <br>
 6.2 on Indy<br>
 - for every source in /home/irix/i/6.2.txt: select option "1. from [source]", add the source and run "go"<br>
-- these are the sources:
-irix@rbpi:i/IRIX/irix62/1/dist
-irix@rbpi:i/IRIX/irix62/2/dist
-irix@rbpi:i/IRIX/irix62/apps/dist
-irix@rbpi:i/IRIX/irix62/nfs62/dist
-(optional) irix@rbpi:i/IRIX/irix62/devf
-(optional) irix@rbpi:i/IRIX/irix62/devlibs
-
+- these are the sources:<br>
+irix@rbpi:i/IRIX/irix62/1/dist<br>
+irix@rbpi:i/IRIX/irix62/2/dist<br>
+irix@rbpi:i/IRIX/irix62/apps/dist<br>
+irix@rbpi:i/IRIX/irix62/nfs62/dist<br>
+(optional) irix@rbpi:i/IRIX/irix62/devf<br>
+(optional) irix@rbpi:i/IRIX/irix62/devlibs<br>
+<br>
 after the installation process:<br>
 - select option "12. quit"<br>
 - reboot the system<br>
