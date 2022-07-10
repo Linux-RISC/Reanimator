@@ -119,6 +119,7 @@ Load the selections file according to the IRIX version installed. Check the righ
 Use "rbpi" or "debian" according to the installation platform<br>
 6.5.22: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.22.txt --> "21. return"<br>
 6.5.30: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.30.txt --> "21. return"<br>
+6.5.7: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.7.txt --> "21. return"<br>
 <br>
 If there is no selections file for your IRIX version, you must write the paths manually: select option "1. from [source]" and add the right paths, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
 <br>
