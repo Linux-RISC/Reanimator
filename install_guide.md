@@ -173,9 +173,9 @@ Depending on the IRIX version and computer model, the installation procedure can
 ----------<br>
 <br>
 6.5.0 on Indy<br>
-In this case, selections file <b>won't work</b>, so you must write the paths manually: select option "1. from [source]" and add the right paths, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
+In this case, selections file <b>won't work</b>, so you must write the paths manually: select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
 <br>
-Use "rbpi" or "debian" according to the installation platform<br>
+Use "rbpi" or "debian" according to the installation platform. These are the sources:<br>
 irix@rbpi:i/IRIX/irix650/1/dist<br>
 irix@rbpi:i/IRIX/irix650/apps/dist<br>
 (optional) irix@rbpi:i/IRIX/irix65x/devf/dist<br>
