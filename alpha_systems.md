@@ -11,7 +11,7 @@
 set ewa0_protocols bootp
 boot ewa0
 ```
-- if you want to go fast avoiding configuration, run on SRM:<br>
+- if you want to load a different file, run on SRM:<br>
 
 ```
 set ewa0_protocols bootp
