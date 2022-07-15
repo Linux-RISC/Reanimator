@@ -1,4 +1,4 @@
-Last update: 2022/07/10<br>
+Last update: 2022/07/15<br>
 # IRIX install guide
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle">
 
@@ -123,6 +123,7 @@ Use "rbpi" or "debian" according to the installation platform<br>
 6.5.22: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.22.txt --> "21. return"<br>
 6.5.30: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.30.txt --> "21. return"<br>
 6.5.7: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.7.txt --> "21. return"<br>
+2022/07/15 update: It seems that NFS is not installed. After installation, reboot and install the source irix@rbpi:i/IRIX/irix65x/nfs/dist.<br>
 <br>
 If there is no selections file for your IRIX version, you must write the sources manually: select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
 <br>
