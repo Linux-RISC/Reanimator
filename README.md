@@ -12,7 +12,6 @@ Reanimator allows Silicon Graphics IRIX network installation using a Raspberry P
 Advanced topics:<br>
 <a href=network_setup.md target="_blank">Network setup</a><br>
 <a href=https://github.com/Linux-RISC/IRIX-diskless-workstation target="_blank">IRIX diskless workstation documentation (includes pictures)</a><br>
-<br>
 <a href=https://github.com/Linux-RISC/IRIX-diskless-workstation/blob/main/classic-IRIX-diskless-workstation.md target="_blank">(classic and limited) sgi IRIX diskless workstation documentation (includes pictures)</a><br>
 <br>
 Support for another systems:<br>
