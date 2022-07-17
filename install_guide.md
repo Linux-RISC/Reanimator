@@ -220,7 +220,7 @@ You can install this patch running inst or swmgr as root and the source irix@rbp
 ----------<br>
 <br>
 5.3 on Indy<br>
-WARNING: there are several IRIX versions depending on the sgi model, if this version doesn't work, please check another versions on <a href=http://ftp.irixnet.org/sgi-irix/irix-5.3/ target="_blank">http://ftp.irixnet.org/sgi-irix/irix-5.3/</a> or <a href=http://jrra.zone/sgi/#pg-7 target="_blank">http://jrra.zone/sgi/#pg-7</a><br>
+WARNING: there are several IRIX versions depending on the sgi model, if this version doesn't work, please check other versions on <a href=http://ftp.irixnet.org/sgi-irix/irix-5.3/ target="_blank">http://ftp.irixnet.org/sgi-irix/irix-5.3/</a> or <a href=http://jrra.zone/sgi/#pg-7 target="_blank">http://jrra.zone/sgi/#pg-7</a><br>
 - for every source in /home/irix/i/5.3.txt: select option "1. from [source]", add the source and run "go". These are the sources:<br>
 irix@rbpi:i/IRIX/irix53/1/dist<br>
 irix@rbpi:i/IRIX/irix53/dev53/dist<br>
