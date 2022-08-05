@@ -3,7 +3,7 @@ Last update: 2022/07/15<br>
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle">
 
 <h3>1. Setting IP client address in Command Monitor</h3>
-To enter Comand Monitor, boot your SGI computer and click on "Stop for Maintenance dialog" or press Esc. Click on "Enter Command Monitor" or press "5" (on Indy, numbers can change on another sgi model).<br>
+To enter Comand Monitor, boot your SGI computer and click on "Stop for Maintenance dialog" or press Esc. Click on "Enter Command Monitor" or press "5" (on Indy, numbers can change on other sgi model).<br>
 Two IP client addresses are available:<br>
 IRIS: <b>setenv netaddr 192.168.9.1</b><br>
 or<br>
