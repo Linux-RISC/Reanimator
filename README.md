@@ -14,6 +14,6 @@ Advanced topics:<br>
 <a href=https://github.com/Linux-RISC/IRIX-diskless-workstation target="_blank">IRIX diskless workstation documentation</a><br>
 <a href=https://github.com/Linux-RISC/IRIX-diskless-workstation/blob/main/classic-IRIX-diskless-workstation.md target="_blank">(classic and limited) sgi IRIX diskless workstation documentation</a><br>
 <br>
-Support for another systems:<br>
+Support for other systems:<br>
 <a href=alpha_systems.md target="_blank">Support for Alpha systems</a><br>
 <a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
