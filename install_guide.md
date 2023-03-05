@@ -44,14 +44,14 @@ If the disk partition program won't start, please check:<br>
 Warning: depending on the documentation used, the procedure can be slightly different. I assume that your drive is neither labeled nor partitioned.<br>
 If you know what you are doing, you could skip some of these steps.<br>
 Press Enter a couple of times to select the default system disk on SCSI controller 0, ID 1, lun 0<br>
-fx> label<br>
-fx/label> create<br>
-fx/label/create> all<br>
+fx> [l]abel<br>
+fx/label> [c]reate<br>
+fx/label/create> [a]ll<br>
 fx/label/create> ..<br>
-fx/label> sync<br>
+fx/label> [sy]nc<br>
 fx/label> ..<br>
-fx> repartition<br>
-fx/repartition> rootdrive<br>
+fx> [r]epartition<br>
+fx/repartition> [ro]otdrive<br>
 fx/repartition/rootdrive: type of data partition = (xfs)<br>
 fx/repartition> /exit<br>
 <br>
