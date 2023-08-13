@@ -11,7 +11,8 @@ Download link: https://mega.nz/folder/7jJGlSSS#d25XyA8RhKJyoU2uSrlasw<br>
 Select version to download:<br>
 <ul>
 <li>Lite (Reanimator-Pi-server-SD16GB-no-images.img.tar.gz): ~740 MB, no IRIX images included, automatically download the images you need or customize your own IRIX installation. Versions available for downloading: 5.3, 6.2, 6.5.0, 6.5.7, 6.5.22 and 6.5.30.</li>
-<li>Full (Reanimator-Pi-server-SD16GB-IRIX-included.img.tar.gz): ~9.7 GB, includes several IRIX versions for offline installation: 5.3, 6.2, 6.5.22 and 6.5.30.</li>
+<li>Full (Reanimator-Pi-server-SD16GB-IRIX-included.img.tar.gz): ~9 GB, includes several IRIX versions for offline installation: 5.3, 6.2, 6.5.22 and 6.5.30.</li>
+<li>Experimental (Reanimator-Pi-server-SD16GB-no-images-netatalk-2.1.6.img.tar.gz): ~1 GB, the Little image but including support for AppleTalk 2, protocol used on old Mac computers.</li>
 <li>If you don't have a Raspberry Pi, please try using the VirtualBox version (Debian i386-IRIX install.vdi.tar.gz), ~550 MB, it's much slower but still functional.</li>
 </ul>
 
