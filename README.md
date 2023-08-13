@@ -26,3 +26,34 @@ Advanced topics:<br>
 Support for other systems:<br>
 <a href=alpha_systems.md target="_blank">Support for Alpha systems</a><br>
 <a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
+
+Change log:<br>
+1.2.1<br>
+- return to tftpd: Octane (among others) won't boot with tftpd-hpa. Please, download the image again.<br>
+<br>
+1.2<br>
+- IRIX 6.3 available for download, tested by kikems (thanks!)<br>
+- automatic checking and creation of directories under /home/irix and /diskless<br>
+- update from 1.1: just update Reanimator scripts from the Internet<br>
+- updated install guide<br>
+<br>
+1.1<br>
+- tftpd replaced by tftpd-hpa<br>
+- pub directory for ftp<br>
+- simplified paths for tftp: removed heading "i/"<br>
+- Alpha systems netboot template (check /etc/bootptab)<br>
+- updated documentation and videos<br>
+<br>
+1.0<br>
+- Diskless workstation support, visit this page for instructions.<br>
+- NFS v4 disabled<br>
+- IPv6 disabled<br>
+<br>
+0.9<br>
+- Raspberry Pi: network assistant to select wired or Wi-Fi connection to the Internet. The RBPi will work as a router for your sgi computer, allowing access to the Internet through your Wi-Fi network<br>
+<br>
+0.8<br>
+- IRIX downloads from the Internet<br>
+- added Midnight Commander to browse directories<br>
+- update Reanimator scripts from the Internet<br>
+<br>
