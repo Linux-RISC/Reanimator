@@ -15,7 +15,7 @@ Select version to download:<br>
 <li>Experimental (Reanimator-Pi-server-SD16GB-no-images-netatalk-2.1.6.img.tar.gz): ~1 GB, the Little image but including support for AppleTalk 2, protocol used on old Mac computers.</li>
 <li>If you don't have a Raspberry Pi, please try using the VirtualBox version (Debian i386-IRIX install.vdi.tar.gz), ~550 MB, it's much slower but still functional.</li>
 </ul>
-
+<br>
 Tested sgi models:
 <table>
   <tr>
@@ -57,8 +57,7 @@ Tested sgi models:
     <td>kikems</td>
   </tr>
 </table>
-
-
+<br>
 Tested non-sgi computers or non-IRIX OS:
 <table>
   <tr>
