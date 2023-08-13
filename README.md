@@ -20,7 +20,7 @@ Tested sgi models:
 <table>
   <tr>
     <th>sgi model</th>
-    <th>IRIX version</th>
+    <th>IRIX versions</th>
     <th>tester</th>
   </tr>
   <tr>
