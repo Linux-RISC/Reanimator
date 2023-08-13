@@ -58,6 +58,28 @@ Tested sgi models:
   </tr>
 </table>
 
+
+Tested non-sgi computers or non-IRIX OS:
+<table>
+  <tr>
+    <th>model</th>
+    <th>OS</th>
+    <th>file</th>
+  </tr>
+  <tr>
+    <td>AlphaStation DS10</td>
+    <td>Debian<br>NetBSD<br>OpenBSD<br>Tru64</td>
+    <td>http://archive.debian.org/debian/dists/lenny/main/installer-alpha/current/images/netboot/<br>
+        https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.2/alpha/installation/netboot/<br>
+        https://cdn.openbsd.org/pub/OpenBSD/7.1/alpha/<br>
+        vmunix1 (generated using RIS)
+    </td>
+  </tr>
+    <td>Indy R4400 150 MHz, 24-bit graphics</td>
+    <td>Debian GNU/Linux 4.0 Etch</td>
+    <td>http://archive.debian.org/debian/dists/etch/main/installer-mips/current/images/r4k-ip22/netboot-boot.img</td>
+</table>
+
 <a href=restoring_image.md target="_blank">Restoring Reanimator image</a><br>
 <a href=initial_configuration.md target="_blank">Initial configuration</a><br>
 <a href=accessing_files.md target="_blank">Accessing files</a><br>
