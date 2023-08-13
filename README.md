@@ -9,9 +9,11 @@ Reanimator allows Silicon Graphics IRIX network installation using a Raspberry P
 Download link: https://mega.nz/folder/7jJGlSSS#d25XyA8RhKJyoU2uSrlasw<br>
 <br>
 Select version to download:<br>
-Lite (Reanimator-Pi-server-SD16GB-no-images.img.tar.gz): ~740 MB, no IRIX images included, automatically download the images you need or customize your own IRIX installation. Versions available for downloading: 5.3, 6.2, 6.5.0, 6.5.7, 6.5.22 and 6.5.30.<br>
-Full (Reanimator-Pi-server-SD16GB-IRIX-included.img.tar.gz): ~9.7 GB, includes several IRIX versions for offline installation: 5.3, 6.2, 6.5.22 and 6.5.30.<br>
-If you don't have a Raspberry Pi, please try using the VirtualBox version (Debian i386-IRIX install.vdi.tar.gz), ~550 MB, it's much slower but still functional.<br>
+<ul>
+<li>Lite (Reanimator-Pi-server-SD16GB-no-images.img.tar.gz): ~740 MB, no IRIX images included, automatically download the images you need or customize your own IRIX installation. Versions available for downloading: 5.3, 6.2, 6.5.0, 6.5.7, 6.5.22 and 6.5.30.</li>
+<li>Full (Reanimator-Pi-server-SD16GB-IRIX-included.img.tar.gz): ~9.7 GB, includes several IRIX versions for offline installation: 5.3, 6.2, 6.5.22 and 6.5.30.</li>
+<li>If you don't have a Raspberry Pi, please try using the VirtualBox version (Debian i386-IRIX install.vdi.tar.gz), ~550 MB, it's much slower but still functional.</li>
+</ul>
 
 <a href=restoring_image.md target="_blank">Restoring Reanimator image</a><br>
 <a href=initial_configuration.md target="_blank">Initial configuration</a><br>
