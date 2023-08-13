@@ -11,7 +11,7 @@ Select version to download:<br>
 <br>
 Lite (Reanimator-Pi-server-SD16GB-no-images.img.tar.gz): (~740 MB) no IRIX images included, automatically download the images you need or customize your own IRIX installation. Versions available for downloading: 5.3, 6.2, 6.5.0, 6.5.7, 6.5.22 and 6.5.30.<br>
 Full (Reanimator-Pi-server-SD16GB-IRIX-included.img.tar.gz): (~9.7 GB) includes several IRIX versions for offline installation: 5.3, 6.2, 6.5.22 and 6.5.30.<br>
-If you don't have a Raspberry Pi, try using the VirtualBox version (Debian i386-IRIX install.vdi.tar.gz) please, ~550 MB, it's much slower but still functional.<br>
+If you don't have a Raspberry Pi, please try using the VirtualBox version (Debian i386-IRIX install.vdi.tar.gz), ~550 MB, it's much slower but still functional.<br>
 
 Read this page for instructions (IRIX install guide updated on 2022/07/10)
 Visit Retrowiki forum or send an e-mail to rbpiuser@gmail.com for any additional support.
