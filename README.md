@@ -93,7 +93,7 @@ Support for other systems:<br>
 <a href=alpha_systems.md target="_blank">Support for Alpha systems</a><br>
 <a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
 
-Change log:
+Change log:<br>
 1.2.4<br>
 - Custom menu support<br>
 <br>
