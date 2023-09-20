@@ -93,7 +93,13 @@ Support for other systems:<br>
 <a href=alpha_systems.md target="_blank">Support for Alpha systems</a><br>
 <a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
 
-Change log:<br>
+Change log:
+1.2.4<br>
+- Custom menu support<br>
+<br>
+1.2.3<br>
+- support for Raspberry Pi TNFS Server Package (FujiNet https://fujinet.online/download/)<br>
+<br>
 1.2.1<br>
 - return to tftpd: Octane (among others) won't boot with tftpd-hpa. Please, download the image again.<br>
 <br>
