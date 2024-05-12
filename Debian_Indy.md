@@ -25,7 +25,7 @@ This way, you can run $debian in Command Monitor to easily start the Debian inst
 setenv netaddr 192.168.9.1
 $debian
 ```
-<a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
+(video) <a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
 <br>
 <h3>3. Partitioning the hard disk</h3>
 - reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
