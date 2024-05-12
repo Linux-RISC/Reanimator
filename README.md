@@ -90,7 +90,7 @@ Advanced topics:<br>
 <a href=https://github.com/Linux-RISC/IRIX-diskless-workstation/blob/main/classic-IRIX-diskless-workstation.md target="_blank">(classic and limited) sgi IRIX diskless workstation documentation</a><br>
 <br>
 Support for other systems:<br>
-<a href=Alpha_systems.md target="_blank">Support for Alpha systems</a><br>
+<a href=alpha_systems.md target="_blank">Support for Alpha systems</a><br>
 <a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
 <a href=Debian_Indy.md target="_blank">Installing Debian GNU/Linux on SGI Indy</a><br>
 
