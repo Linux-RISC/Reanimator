@@ -17,8 +17,8 @@ boot ewa0
 set ewa0_protocols bootp
 boot -file my_boot_filename ewa0
 ```
-<a href=https://youtu.be/cjAT91gEH6k target="_blank">AlphaStation DS10 booting Debian 5.0.10 lenny installation using network boot on Reanimator</a><br>
-<a href=https://youtu.be/1uvcMV_5HZc target="_blank">AlphaStation DS10 booting Tru64 vmunix1 (generated on RIS) using network boot on Reanimator</a><br>
+(video) <a href=https://youtu.be/cjAT91gEH6k target="_blank">AlphaStation DS10 booting Debian 5.0.10 lenny installation using network boot on Reanimator</a><br>
+(video) <a href=https://youtu.be/1uvcMV_5HZc target="_blank">AlphaStation DS10 booting Tru64 vmunix1 (generated on RIS) using network boot on Reanimator</a><br>
 
 ```
 # configuration to netboot an Alpha system
