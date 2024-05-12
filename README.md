@@ -92,6 +92,7 @@ Advanced topics:<br>
 Support for other systems:<br>
 <a href=Alpha_systems.md target="_blank">Support for Alpha systems</a><br>
 <a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
+<a href=Debian_Indy.md target="_blank">Installing Debian GNU/Linux on SGI Indy</a><br>
 
 Change log:<br>
 1.2.4<br>
