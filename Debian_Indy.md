@@ -15,59 +15,53 @@ According to my experience, installing Debian GNU/Linux on Indy using netinstall
 setenv netaddr 192.168.9.1
 bootp():netboot-boot.img
 ```
-
 ** tip **<br>
 - define a "Debian" variable in Command Monitor:<br>
 Indy: <b>setenv -p Debian "bootp():netboot-boot.img"</b><br>
-<br>
-This way, you can run $Debian in Command Monitor to easily start the disk partitioning program<br>
-<br>
+This way, you can run $Debian in Command Monitor to easily start the disk partitioning program:<br>
 
 ```
 setenv netaddr 192.168.9.1
 $Debian
 ```
-
-
-tip: to 
-setenv netaddr 192.168.9.1
-bootp():netboot-boot.img
-
-- define a "part" variable in Command Monitor:<br>
-Indy: <b>setenv -p part "bootp():IRIX/6.5.22/ovl1/stand/fx.ARCS -x"</b><br>
-
-- download and save the boot file on /home/irix/i<br>
-- specify the MAC of your Alpha system<br>
-- optionally, customize IP and subnet mask<br>
-- run on SRM:<br>
+<h3>3. Partitioning the hard disk</h3>
+- reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
+- in my case:
 
 ```
-set ewa0_protocols bootp
-boot ewa0
+dd if=/dev/zero of=/dev/sda count=1 bs=512
 ```
-- if you want to load a different file, run on SRM:<br>
+```
+Use fdisk /dev/sda
+
+Enter expert mode: x
+Make disklabel: g
+Leave expert mode: r
+```
+Cylinder size: cs=2048*512=1048576 bytes=1 MB<br>
+The last cylinder: lc=8677<br>
+<br>
+Start of 	volume header = 0<br>
+End of	volume header:	ev	= 50 / cs = 50<br>
+Start of	Linux swap:	ss 	= lc - 128/cs = 8677-128/1 = 8549<br>
+End of	Linux swap:	es	= lc = 8677<br>
+Start of	Linux native:	sn	= ev + 1 = 51<br>
+End of	Linux native:	en	= ss - 1 = 8548<br>
+
+Make the Linux partition: d - 1 - n - 1 - sn - en<br>
+Make the volume header: d - 9 - n - 9 - 0 - ev<br>
+Make the swap partition: d - 2 - n - 2 - ss - es - t - 2 - 82<br>
+--><br>
+Make the Linux partition: d - 1 - n - 1 - 51 - 8548<br>
+Make the volume header: d - 9 - n - 9 - 0 - 50<br>
+Make the swap partition: d - 2 - n - 2 - 8549 - 8677 - t - 2 - 82<br>
+Write the table to disk: w<br>
+<br>
+<h3>4. Making it boot</h3>
+- reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
 
 ```
-set ewa0_protocols bootp
-boot -file my_boot_filename ewa0
-```
-https://youtu.be/cjAT91gEH6k<br>
-https://youtu.be/1uvcMV_5HZc<br>
-
-```
-# configuration to netboot an Alpha system
-# run on SRM:
-# set ewa0_protocols bootp
-# boot ewa0
-Alpha:\
-# OS		file name	link
-# Debian	boot.img	http://archive.debian.org/debian/dists/lenny/main/installer-alpha/current/images/netboot/
-# NetBSD	netboot		https://cdn.netbsd.org/pub/NetBSD/NetBSD-9.2/alpha/installation/netboot/
-# OpenBSD	netboot		https://cdn.openbsd.org/pub/OpenBSD/7.1/alpha/
-bf=boot.img:\
-# IP address assigned to Alpha
-ip=192.168.9.14:\
-sm=255.255.255.0:\
-# write here your Alpha MAC address
-ha=c60000000001:
+setenv OSLoader linux
+setenv SystemPartition scsi(0)disk(1)rdisk(0)partition(8)
+setenv OSLoadPartition /dev/sda1set ewa0_protocols bootp
 ```
