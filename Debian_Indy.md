@@ -17,14 +17,16 @@ setenv netaddr 192.168.9.1
 bootp():netboot-boot.img
 ```
 ** tip **<br>
-- define a "Debian" variable in Command Monitor:<br>
-Indy: <b>setenv -p Debian "bootp():netboot-boot.img"</b><br>
-This way, you can run $Debian in Command Monitor to easily start the Debian installation:<br>
+- define a "debian" variable in Command Monitor:<br>
+Indy: <b>setenv -p debian "bootp():netboot-boot.img"</b><br>
+This way, you can run $debian in Command Monitor to easily start the Debian installation:<br>
 
 ```
 setenv netaddr 192.168.9.1
-$Debian
+$debian
 ```
+<a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
+<br>
 <h3>3. Partitioning the hard disk</h3>
 - reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
 - in my case:
