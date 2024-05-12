@@ -60,7 +60,10 @@ Make the volume header: d - 9 - n - 9 - 0 - 50<br>
 Make the swap partition: d - 2 - n - 2 - 8549 - 8677 - t - 2 - 82<br>
 Write the table to disk: w<br>
 <br>
-<h3>4. Making it boot</h3>
+<h3>4. Selecting a mirror</h3>
+- when asked, type a custom hostname for the mirror: archive.debian.org and accept "/debian/" as directory<br>
+<br>
+<h3>5. Making it boot</h3>
 - reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
 
 ```
