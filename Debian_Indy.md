@@ -1,7 +1,7 @@
 # Installing Debian GNU/Linux on SGI Indy
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
 <br>
-<h3>1. Download the file netboot-boot.img and store it on Reanimator's directory /home/irix/i/h3>
+<h3>1. Download the file netboot-boot.img and store it on Reanimator's directory /home/irix/i</h3>
 http://archive.debian.org/debian/dists/etch/main/installer-mips/current/images/r4k-ip22/netboot-boot.img
 - download and save the boot file on /home/irix/i<br>
 - specify the MAC of your Alpha system<br>
