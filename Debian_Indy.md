@@ -19,7 +19,7 @@ bootp():netboot-boot.img
 ** tip **<br>
 - define a "Debian" variable in Command Monitor:<br>
 Indy: <b>setenv -p Debian "bootp():netboot-boot.img"</b><br>
-This way, you can run $Debian in Command Monitor to easily start the disk partitioning program:<br>
+This way, you can run $Debian in Command Monitor to easily start the Debian installation:<br>
 
 ```
 setenv netaddr 192.168.9.1
