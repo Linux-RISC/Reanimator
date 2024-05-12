@@ -8,7 +8,7 @@ Reanimator allows Silicon Graphics IRIX network installation using a Raspberry P
 <br>
 Download link: https://mega.nz/folder/7jJGlSSS#d25XyA8RhKJyoU2uSrlasw<br>
 <br>
-Select version to download:<br>
+Select the version to download:<br>
 <ul>
 <li>Lite (Reanimator-Pi-server-SD16GB-no-images.img.tar.gz): ~740 MB, no IRIX images included, automatically download the images you need or customize your own IRIX installation. Versions available for downloading: 5.3, 6.2, 6.5.0, 6.5.7, 6.5.22 and 6.5.30.</li>
 <li>Full (Reanimator-Pi-server-SD16GB-IRIX-included.img.tar.gz): ~9 GB, includes several IRIX versions for offline installation: 5.3, 6.2, 6.5.22 and 6.5.30.</li>
