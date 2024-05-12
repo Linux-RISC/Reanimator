@@ -9,6 +9,7 @@ According to my experience, installing Debian GNU/Linux on Indy using netinstall
 <br>
 <h3>1. Download the file netboot-boot.img and store it on Reanimator's directory /home/irix/i</h3>
 - download link: http://archive.debian.org/debian/dists/etch/main/installer-mips/current/images/r4k-ip22/netboot-boot.img<br>
+<br>
 <h3>2. Run on Command Monitor:</h3>
 
 ```
@@ -63,5 +64,5 @@ Write the table to disk: w<br>
 ```
 setenv OSLoader linux
 setenv SystemPartition scsi(0)disk(1)rdisk(0)partition(8)
-setenv OSLoadPartition /dev/sda1set ewa0_protocols bootp
+setenv OSLoadPartition /dev/sda1
 ```
