@@ -61,7 +61,7 @@ Make the swap partition: d - 2 - n - 2 - 8549 - 8677 - t - 2 - 82<br>
 Write the table to disk: w<br>
 <br>
 <h3>4. Selecting a mirror</h3>
-- when asked, type a custom hostname for the mirror: archive.debian.org and accept "/debian/" as directory<br>
+- when asked, type a custom hostname for the mirror: archive.debian.org and accept "/debian/" as directory:<br>
 <img src="Debian_mirror_hostname.jpg" align="middle"><br>
 <img src="Debian_mirror_directory.jpg" align="middle"><br>
 <br>
