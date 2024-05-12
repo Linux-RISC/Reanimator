@@ -90,9 +90,8 @@ Advanced topics:<br>
 <a href=https://github.com/Linux-RISC/IRIX-diskless-workstation/blob/main/classic-IRIX-diskless-workstation.md target="_blank">(classic and limited) sgi IRIX diskless workstation documentation</a><br>
 <br>
 Support for other systems:<br>
-<a href=[https://youtu.be/g21rlFwnXjY](https://youtu.be/cjAT91gEH6k) target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
-<a href=[https://youtu.be/g21rlFwnXjY](https://youtu.be/1uvcMV_5HZc) target="_blank">AlphaStation DS10 booting Debian 5.0.10 lenny installation using network boot on Reanimator</a><br>
-<a href=https://youtu.be/g21rlFwnXjY target="_blank">AlphaStation DS10 booting Tru64 vmunix1 (generated on RIS) using network boot on Reanimator</a><br>
+<a href=https://youtu.be/cjAT91gEH6k target="_blank">AlphaStation DS10 booting Debian 5.0.10 lenny installation using network boot on Reanimator</a><br>
+<a href=https://youtu.be/1uvcMV_5HZc target="_blank">AlphaStation DS10 booting Tru64 vmunix1 (generated on RIS) using network boot on Reanimator</a><br>
 <a href=Alpha_systems.md target="_blank">Support for Alpha systems</a><br>
 <br>
 <a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
