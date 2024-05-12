@@ -65,6 +65,8 @@ Write the table to disk: w<br>
 <img src="Debian_mirror_hostname.jpg" align="middle"><br>
 <img src="Debian_mirror_directory.jpg" align="middle"><br>
 <br>
+An Indy is a pretty slow machine, the installation process wil take <b>at least</b> 6 hours, please be patient.
+<br>
 <h3>5. Making it boot</h3>
 - reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
 
