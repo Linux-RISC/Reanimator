@@ -95,3 +95,9 @@ Unable to negotiate with IP port 22: no matching key exchange method found. Thei
 ```
 ~$ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 user@IP
 ```
+- I tried to install both "Base system" and "Desktop environment" first, but the installation got stuck. So I installed just "Base system" and after rebooting I installed "Desktop environment" using tasksel:
+
+```
+indy:~# tasksel
+```
+
