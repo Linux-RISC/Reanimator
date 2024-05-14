@@ -100,4 +100,6 @@ Unable to negotiate with IP port 22: no matching key exchange method found. Thei
 ```
 indy:~# tasksel
 ```
+<img src="Debian_tasksel.png" align="middle"><br>
+
 
