@@ -28,6 +28,12 @@ $debian
 (video) <a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
 <br>
 <h3>3. Partitioning the hard disk</h3>
+- My disk:
+
+```
+Disk /dev/sda (SGI disk label): 64 heads, 32 sectors, 8678 cylinders
+Units = cylinders of 2048 * 512 bytes
+```
 - reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
 - in my case:
 
