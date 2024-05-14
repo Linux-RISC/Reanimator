@@ -72,9 +72,10 @@ An Indy is a pretty slow machine, the installation process wil take <b>at least<
 <img src="Debian_command_monitor.jpg" align="middle"><br>
 
 ```
-setenv OSLoader linux
-setenv SystemPartition scsi(0)disk(1)rdisk(0)partition(8)
-setenv OSLoadPartition /dev/sda1
+setenv OSLoader arcboot
+setenv OSLoadFilename Linux
+setenv SystemPartition dksc(0,1,8)
+setenv OSLoadPartition dksc(0,1,0)
 ```
 <h3>6. Tips</h3>
 - an Indy is a pretty slow machine, the installation process will take <b>at least</b> 6 hours, please be patient.<br>
@@ -82,4 +83,15 @@ setenv OSLoadPartition /dev/sda1
 
 ```
 indy:~# aptitude install openssh-server screen
+```
+- to avoid this error:
+
+```
+~$ ssh user@IP
+Unable to negotiate with IP port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
+```
+- use this command:
+
+```
+~$ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 user@IP
 ```
