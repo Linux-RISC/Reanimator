@@ -28,6 +28,10 @@ $debian
 (video) <a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
 <br>
 <h3>3. Partitioning the hard disk</h3>
+- reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
+- additional references:<br>
+http://www.ingallegri.com/public/debianSgi.html<br>
+http://www.wagemakers.be/english/doc/indy<br>
 - My disk:
 
 ```
@@ -57,7 +61,6 @@ user@indy:~$ sudo hwinfo --disk
   Size: 17773524 sectors a 512 bytes
   Config Status: cfg=new, avail=yes, need=no, active=unknown
 ``` 
-- reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
 - in my case:
 
 ```
