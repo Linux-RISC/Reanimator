@@ -36,10 +36,26 @@ Units = cylinders of 2048 * 512 bytes
 ```
 
 ```
-user@indy:~$ cat /sys/block/sda/device/vendor
-HP
-user@indy:~$ cat /sys/block/sda/device/model 
-9.10GB A 68-S94C
+user@indy:~$ sudo hwinfo --disk
+01: SCSI 01.0: 10600 Disk                                       
+  [Created at block.218]
+  Unique ID: 0549.4HNtyCTGo35
+  SysFS ID: /block/sda
+  SysFS BusID: 0:0:1:0
+  SysFS Device Link: /devices/platform/host0/target0:0:1/0:0:1:0
+  Hardware Class: disk
+  Model: "HP 9.10GB A 68-S94C"
+  Vendor: "HP"
+  Device: "9.10GB A 68-S94C"
+  Revision: "S94C"
+  Serial ID: "RE244084"
+  Driver: "sd"
+  Device File: /dev/sda (/dev/sg0)
+  Device Files: /dev/sda, /dev/disk/by-id/scsi-SHP_9.10GB_A_68-S94RE244084
+  Device Number: block 8:0-8:15 (char 21:0)
+  Geometry (Logical): CHS 8678/64/32
+  Size: 17773524 sectors a 512 bytes
+  Config Status: cfg=new, avail=yes, need=no, active=unknown
 ``` 
 - reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
 - in my case:
@@ -101,7 +117,7 @@ indy:~# tasksel
 - install some utilities after rebooting:<br>
 
 ```
-indy:~# aptitude install openssh-server screen sudo
+indy:~# aptitude install openssh-server screen sudo hwinfo
 ```
 - use "visudo" command as root to modify /etc/sudoers:
 
