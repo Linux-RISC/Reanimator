@@ -34,6 +34,13 @@ $debian
 Disk /dev/sda (SGI disk label): 64 heads, 32 sectors, 8678 cylinders
 Units = cylinders of 2048 * 512 bytes
 ```
+
+```
+user@indy:~$ cat /sys/block/sda/device/vendor
+HP
+user@indy:~$ cat /sys/block/sda/device/model 
+9.10GB A 68-S94C
+``` 
 - reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
 - in my case:
 
