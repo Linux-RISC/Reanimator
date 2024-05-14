@@ -67,10 +67,19 @@ Write the table to disk: w<br>
 An Indy is a pretty slow machine, the installation process wil take <b>at least</b> 6 hours, please be patient.
 <br>
 <h3>5. Making it boot</h3>
-- reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
+- reference: Debian installation<br>
+<img src="Debian_arcboot.jpg" align="middle"><br>
+<img src="Debian_command_monitor.jpg" align="middle"><br>
 
 ```
 setenv OSLoader linux
 setenv SystemPartition scsi(0)disk(1)rdisk(0)partition(8)
 setenv OSLoadPartition /dev/sda1
+```
+<h3>6. Tips</h3>
+- an Indy is a pretty slow machine, the installation process will take <b>at least</b> 6 hours, please be patient.<br>
+- install some utilities after installation:<br>
+
+```
+indy:~# aptitude install openssh-server screen
 ```
