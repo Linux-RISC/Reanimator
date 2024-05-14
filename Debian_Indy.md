@@ -82,7 +82,29 @@ setenv OSLoadPartition dksc(0,1,0)
 - install some utilities after installation:<br>
 
 ```
-indy:~# aptitude install openssh-server screen
+indy:~# aptitude install openssh-server screen sudo
+```
+- use "visudo" command as root to modify /etc/sudoers:
+
+```
+# /etc/sudoers
+#
+# This file MUST be edited with the 'visudo' command as root.
+#
+# See the man page for details on how to write a sudoers file.
+#
+
+Defaults        env_reset
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification
+root    ALL=(ALL) ALL
+user    ALL=(ALL) ALL
 ```
 - to avoid this error:
 
