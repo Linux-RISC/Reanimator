@@ -79,7 +79,13 @@ setenv OSLoadPartition dksc(0,1,0)
 ```
 <h3>6. Tips</h3>
 - an Indy is a pretty slow machine, the installation process will take <b>at least</b> 6 hours, please be patient.<br>
-- install some utilities after installation:<br>
+- I tried to install both "Base system" and "Desktop environment" first, but the installation got stuck. So I installed just "Base system" and after rebooting I installed "Desktop environment" using tasksel:
+
+```
+indy:~# tasksel
+```
+<img src="Debian_tasksel.png" align="middle"><br>
+- install some utilities after rebooting:<br>
 
 ```
 indy:~# aptitude install openssh-server screen sudo
@@ -117,11 +123,3 @@ Unable to negotiate with IP port 22: no matching key exchange method found. Thei
 ```
 ~$ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 user@IP
 ```
-- I tried to install both "Base system" and "Desktop environment" first, but the installation got stuck. So I installed just "Base system" and after rebooting I installed "Desktop environment" using tasksel:
-
-```
-indy:~# tasksel
-```
-<img src="Debian_tasksel.png" align="middle"><br>
-
-
