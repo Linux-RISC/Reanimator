@@ -28,7 +28,7 @@ $debian
 (video) <a href=https://youtu.be/g21rlFwnXjY target="_blank">Indy booting Debian GNU/Linux 4.0 Etch installation</a><br>
 <br>
 <h3>3. Partitioning the hard disk</h3>
-- reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
+- main reference: https://www.pvv.org/~pladsen/Indy/HOWTO.html<br>
 - additional references:<br>
 http://www.ingallegri.com/public/debianSgi.html<br>
 http://www.wagemakers.be/english/doc/indy<br>
@@ -121,7 +121,7 @@ indy:~# tasksel
 - install some utilities after rebooting:<br>
 
 ```
-indy:~# aptitude install openssh-server screen sudo hwinfo
+indy:~# aptitude install openssh-server screen ntp sudo hwinfo
 ```
 - use "visudo" command as root to modify /etc/sudoers:
 
