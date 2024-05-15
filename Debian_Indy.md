@@ -114,7 +114,7 @@ setenv OSLoadPartition dksc(0,1,0)
 - reference: http://www.ingallegri.com/public/debianSgi.html<br>
 After rebooting, X-Window will not start:<br>
 <img src="Debian_X.jpg" align="middle"><br>
-Replace the content of your /etc/X11/xorg.conf with the content provided by Davide Allegri:<br>
+To make it work, replace the content of your /etc/X11/xorg.conf with the content provided by Davide Allegri:<br>
 
 ```
 # /etc/X11/xorg.conf (xorg X Window System server configuration file)
