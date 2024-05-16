@@ -241,6 +241,7 @@ Gnome Desktop working:<br>
 <img src="Debian_GD_login.jpg" align="middle"><br>
 <img src="Debian_GD_Applications.jpg" align="middle"><br>
 <img src="Debian_GD_Desktop.jpg" align="middle"><br>
+<img src="Debian_banner_SGI_Indy.jpg" align="middle"><br>
 
 <h3>7. Tips</h3>
 - an Indy is a pretty slow machine, the installation process will take <b>at least</b> 6 hours, please be patient.<br>
