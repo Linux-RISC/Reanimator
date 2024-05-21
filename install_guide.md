@@ -57,7 +57,7 @@ fx/repartition> /exit<br>
 <br>
 <h3>4. Starting the installer from network</h3>
 - Enter System Maintenance menu, press 2 or click on "Install system software"<br>
-- Press 1 or click on "From remote directory"<br>
+- Press 2 or click on "From remote directory"<br>
 - Enter "rbpi" or "debian" (according to the installation platform) as "server name", NOT the IP address<br>
 - For example:<br>
 Indy:<br>
