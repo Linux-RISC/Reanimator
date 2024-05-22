@@ -33,7 +33,7 @@ Octane2: <b>setenv -p part "bootp():IRIX/6.5.30/disc1/stand/fx.64 -x"</b><br>
 This way, you can run $part in Command Monitor to easily start the disk partitioning program<br>
 <br>
 <b>Troubleshooting</b><br>
-If the disk partition program won't start, please check:<br>
+If the disk partition program doesn't start, please check:<br>
 &ensp;1. netaddr is properly configured in Command Monitor.<br>
 &ensp;2. if the problem persists, connect your sgi computer to Reanimator using a straight-through cable, not a crossover.<br>
 &ensp;3. in cases 1 and 2, you can try type the server name before ":", for example: "bootp()rbpi:IRIX/6.5.22/ovl1/stand/fx.ARCS -x".<br>
@@ -101,7 +101,7 @@ IRIS for 192.168.9.1<br>
 IRIS2 for 192.168.9.2<br>
 <br>
 <b>Troubleshooting</b><br>
-If the installer program won't start, please check:<br>
+If the installer program doesn't start, please check:<br>
 &ensp;1. netaddr is properly configured in Command Monitor.<br>
 &ensp;2. if the problem persists, connect your sgi computer to Reanimator using a straight-through cable, not a crossover.<br>
 &ensp;3. if the problem persists again, you must try to boot the installer program using the "hard way", booting from Command Monitor.<br>
@@ -125,7 +125,7 @@ Use "rbpi" or "debian" according to the installation platform<br>
 6.5.7: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.7.txt --> "21. return"<br>
 2022/07/15 update: It seems that NFS is not installed. After installation, reboot and install the source irix@rbpi:i/IRIX/irix65x/nfs/dist.<br>
 <br>
-If there is no selections file for your IRIX version, you must write the sources manually: select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
+If there is no selections file for your IRIX version, you must write the sources manually: select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, <b>SKIP</b> "/" before "i". For example:<br>
 <br>
 Indy: use "rbpi" or "debian" according to the installation platform<br>
 irix@rbpi:i/IRIX/6.5.22/ovl1/dist<br>
@@ -174,7 +174,7 @@ Depending on the IRIX version and computer model, the installation procedure can
 ----------<br>
 <br>
 6.5.0 on Indy<br>
-In this case, selections file <b>won't work</b>, so you must write the sources manually: select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
+In this case, selections file <b>won't work</b>, so you must write the sources manually: select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, <b>SKIP</b> "/" before "i". For example:<br>
 <br>
 Use "rbpi" or "debian" according to the installation platform. These are the sources:<br>
 irix@rbpi:i/IRIX/irix650/1/dist<br>
@@ -198,7 +198,7 @@ inst> go<br>
 ----------<br>
 <br>
 6.3 (for O2 R5k/R10k) on O2 R5k (tested by kikems). This procedure is similar to IRIX 6.5.0 installation<br>
-- select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, SKIP "/" before "i". For example:<br>
+- select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, <b>SKIP</b> "/" before "i". For example:<br>
 <br>
 Use "rbpi" or "debian" according to the installation platform. These are the sources:<br>
 irix@rbpi:i/IRIX/irix63/1/dist<br>
