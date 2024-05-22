@@ -1,3 +1,4 @@
+Last update: 2024/05/22<br>
 # Installing Debian GNU/Linux on SGI Indy
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
 <br>
@@ -103,6 +104,8 @@ An Indy is a pretty slow machine, the installation process wil take <b>at least<
 - reference: Debian installation<br>
 <img src="Debian_arcboot.jpg" align="middle"><br>
 <img src="Debian_command_monitor.jpg" align="middle"><br>
+<br>
+Run in Command Monitor:
 
 ```
 setenv OSLoader arcboot
