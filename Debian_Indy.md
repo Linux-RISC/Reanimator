@@ -292,3 +292,13 @@ Unable to negotiate with IP port 22: no matching key exchange method found. Thei
 ```
 ~$ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 user@IP
 ```
+<br>
+<h3>8. Rebooting IRIX from disk 1:</h3>
+To boot from disk 1, run in Command Monitor:
+
+```
+>>setenv SystemPartition dksc(0,1,8)
+>>setenv OSLoadPartition dksc(0,1,0)
+>>setenv OSLoader sash
+>>setenv OSLoadFilename unix
+```
