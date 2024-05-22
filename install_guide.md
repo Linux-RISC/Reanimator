@@ -9,7 +9,7 @@ IRIS: <b>setenv netaddr 192.168.9.1</b><br>
 or<br>
 IRIS2: <b>setenv netaddr 192.168.9.2</b><br>
 <br>
-To boot from disk 1 after the installation, run in Command Monitor:
+To reboot from disk 1 after the installation, run in Command Monitor:
 
 ```
 >>setenv SystemPartition dksc(0,1,8)
