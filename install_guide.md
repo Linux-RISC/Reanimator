@@ -8,6 +8,14 @@ Two IP client addresses are available:<br>
 IRIS: <b>setenv netaddr 192.168.9.1</b><br>
 or<br>
 IRIS2: <b>setenv netaddr 192.168.9.2</b><br>
+To boot from disk 1 after the installation, run in Command Monitor:
+
+```
+setenv OSLoader arcboot
+setenv OSLoadFilename Linux
+setenv SystemPartition dksc(0,1,8)
+setenv OSLoadPartition dksc(0,1,0)
+```
 <br>
 <h3>2. Starting the partition tool in Command Monitor</h3>
 "Selecting the Correct fx/sash Version" on <a href=https://software.majix.org/irix/install-network.shtml target="_blank">https://software.majix.org/irix/install-network.shtml</a><br>
