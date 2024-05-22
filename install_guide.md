@@ -1,4 +1,4 @@
-Last update: 2022/07/15<br>
+Last update: 2024/05/22<br>
 # IRIX install guide
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle">
 
