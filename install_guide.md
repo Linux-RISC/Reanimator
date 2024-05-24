@@ -152,6 +152,8 @@ nfs.sw.nfs (1274627335) is incompatible with eoe.sw.base (1289434520)
 Inst> conflicts 1b
 Install software from: irix@192.168.9.100:i/IRIX/6.5.22/ovl1/dist
 
+Install software from: done
+
 Inst> go
 ```
 <br>
