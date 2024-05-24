@@ -132,7 +132,28 @@ Use "rbpi" or "debian" according to the installation platform<br>
 6.5.22: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.22.txt --> "21. return"<br>
 6.5.30: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.30.txt --> "21. return"<br>
 6.5.7: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.7.txt --> "21. return"<br>
-2022/07/15 update: It seems that NFS is not installed. After installation, reboot and install the source irix@IP_Reanimator:i/IRIX/irix65x/nfs/dist.<br>
+2022/07/15 update: It seems that NFS is not installed. After installation, reboot and install the source irix@IP_Reanimator:i/IRIX/irix65x/nfs/dist, for example:<br>
+Reference: https://forums.sgi.sh/index.php?threads/nfs-weirdness.563/<br>
+
+```
+# inst
+1. from [source ...]
+Install software from: irix@192.168.9.100:i/IRIX/irix65x/nfs/dist
+Inst> conflicts
+
+nfs.sw.nis (1274627335) is incompatible with eoe.sw.base (1289434520)
+  1a. Do not install nfs.sw.nis (1274627335)
+  1b. Open new distribution to resolve conflict
+
+nfs.sw.nfs (1274627335) is incompatible with eoe.sw.base (1289434520)
+  2a. Do not install nfs.sw.nfs (1274627335)
+  2b. Open new distribution to resolve conflict
+...
+Inst> conflicts 1b
+Install software from: irix@192.168.9.100:i/IRIX/6.5.22/ovl1/dist
+
+Inst> go
+```
 <br>
 If there is no selections file for your IRIX version, you must write the sources manually: select option "1. from [source]" and add the right sources, you can type "rbpi" or "debian" for server name, <b>SKIP</b> "/" before "i". For example:<br>
 <br>
