@@ -132,7 +132,7 @@ Use "rbpi" or "debian" according to the installation platform<br>
 6.5.22: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.22.txt --> "21. return"<br>
 6.5.30: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.30.txt --> "21. return"<br>
 6.5.7: Select option "13. admin" --> "15. load filename" --> irix@rbpi:i/6.5.7.txt --> "21. return"<br>
-2022/07/15 update: It seems that NFS is not installed. After installation, reboot and install the source irix@IP_Reanimator:i/IRIX/irix65x/nfs/dist, for example:<br>
+2024/05/24 update: It seems that NFS is not installed. After installation, reboot and install the source irix@IP_Reanimator:i/IRIX/irix65x/nfs/dist, for example:<br>
 Reference: https://forums.sgi.sh/index.php?threads/nfs-weirdness.563/<br>
 
 ```
