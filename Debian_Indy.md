@@ -287,7 +287,7 @@ user    ALL=(ALL) ALL
 ~$ ssh user@IP
 Unable to negotiate with IP port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
 ```
-- try these commands (-oKexAlgorithms=+diffie-hellman-group1-sha1):
+- try these commands (https://askubuntu.com/questions/836048/ssh-returns-no-matching-host-key-type-found-their-offer-ssh-dss):
 
 ```
 ~$ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 user@IP
