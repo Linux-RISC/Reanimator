@@ -1,4 +1,4 @@
-Last update: 2024/05/22<br>
+Last update: 2024/05/25<br>
 # Installing Debian GNU/Linux on SGI Indy
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
 <br>
@@ -287,10 +287,14 @@ user    ALL=(ALL) ALL
 ~$ ssh user@IP
 Unable to negotiate with IP port 22: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1,diffie-hellman-group1-sha1
 ```
-- use this command:
+- try these commands (-oKexAlgorithms=+diffie-hellman-group1-sha1):
 
 ```
 ~$ ssh -oKexAlgorithms=+diffie-hellman-group1-sha1 user@IP
+```
+
+```
+~$ ssh -o KexAlgorithms=diffie-hellman-group14-sha1 -oHostKeyAlgorithms=+ssh-dss user@IP
 ```
 <br>
 <h3>8. Rebooting IRIX from disk 1:</h3>
