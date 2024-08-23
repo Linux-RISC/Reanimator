@@ -1,6 +1,6 @@
 <a href="https://www.buymeacoffee.com/rbpiuserf" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-Last update: 2024/05/22
+Last update: 2024/08/23
 # Reanimator
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
 <br>
@@ -22,6 +22,7 @@ Tested sgi models:
     <th>sgi model</th>
     <th>IRIX versions</th>
     <th>tester</th>
+    <th>date</th>
   </tr>
   <tr>
     <td>Indy R4400 150 MHz, 24-bit graphics</td>
@@ -55,6 +56,12 @@ Tested sgi models:
     <td>Crimson</td>
     <td>5.3</td>
     <td>kikems</td>
+  </tr>
+  <tr>
+    <td>Indigo R4400 Elan</td>
+    <td>5.3</td>
+    <td>VisualCortexLab</td>
+    <td>2024-08-23</td>
   </tr>
 </table>
 <br>
