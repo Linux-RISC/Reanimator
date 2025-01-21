@@ -1,6 +1,6 @@
 <a href="https://www.buymeacoffee.com/rbpiuserf" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-Last update: 2024/08/23
+Last update: 2025/01/21
 # Reanimator
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
 <br>
@@ -14,6 +14,7 @@ Select a version to download:<br>
 <li>Full (Reanimator-Pi-server-SD16GB-IRIX-included.img.tar.gz): ~9 GB, includes several IRIX versions for offline installation: 5.3, 6.2, 6.5.22 and 6.5.30.</li>
 <li>Experimental (Reanimator-Pi-server-SD16GB-no-images-netatalk-2.1.6.img.tar.gz): ~1 GB, the Little image but including support for AppleTalk 2, protocol used on old Mac computers.</li>
 <li>If you don't have a Raspberry Pi, please try using the VirtualBox version (Debian i386-IRIX install.vdi.tar.gz), ~550 MB, it's much slower but still functional.</li>
+<li>Mirrors on <a href="https://inconexia.asuscomm.com/mirror/sgi/reanimator/REANIMATOR/" target="_blank">kawa</a> and <a href="https://fsck.technology/software/Silicon%20Graphics/Reanimator/" target="_blank">fsck.technology</a>. Thanks for your storage!</li>
 </ul>
 <br>
 Tested sgi models:
