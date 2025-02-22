@@ -96,7 +96,7 @@ Advanced topics:<br>
 <a href=network_setup.md target="_blank">Network setup</a><br>
 <a href=https://github.com/Linux-RISC/IRIX-diskless-workstation target="_blank">IRIX diskless workstation documentation</a><br>
 <a href=https://github.com/Linux-RISC/IRIX-diskless-workstation/blob/main/classic-IRIX-diskless-workstation.md target="_blank">(classic and limited) sgi IRIX diskless workstation documentation</a><br>
-<a href=qemu_M3.md target="_blank">Migrating VirtualBox image to qemu. Tested on M3 Mac for Jamie Honnaker, thank you!</a><br>
+<a href=qemu_M3.md target="_blank">Migrating VirtualBox image to qemu. Tested on a M3 Mac for Jamie Honnaker, thank you!</a><br>
 <br>
 Support for other systems:<br>
 <a href=Alpha_systems.md target="_blank">Support for Alpha systems</a><br>
