@@ -4,7 +4,7 @@ Last update: 2025/02/22
 # Reanimator
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
 <br>
-Reanimator allows Silicon Graphics IRIX network installation using a Raspberry Pi (tested in Pi3/4/400 versions) or VirtualBox<br>
+Reanimator allows Silicon Graphics IRIX network installation using a Raspberry Pi (tested on Pi3/4/400 versions) or VirtualBox<br>
 <br>
 Download link: https://mega.nz/folder/7jJGlSSS#d25XyA8RhKJyoU2uSrlasw<br>
 <br>
