@@ -46,11 +46,11 @@ sudo, ntp client, bootp, tfptp, rsh, ssh, sftp, anonymous FTP, NFS (versions 2, 
 * selections file templates *
 selections file          remote directory for installer	common partition command
 irix@rbpi:i/MIPSPro.txt
-irix@rbpi:i/5.3.txt		  IRIX/irix53/1/dist		          bootp():IRIX/irix53/1/stand/fx.ARCS
-irix@rbpi:i/6.2.txt		  IRIX/irix62/1/dist		          bootp():IRIX/irix62/1/stand/fx.ARCS or fx.64
-irix@rbpi:i/6.3.txt		  IRIX/irix63/1/dist		          bootp():IRIX/irix63/1/stand/fx.ARCS or fx.64
-irix@rbpi:i/6.5.0.txt	  IRIX/irix650/1/dist		          bootp():IRIX/irix650/1/stand/fx.ARCS or fx.64
-irix@rbpi:i/6.5.7.txt	  IRIX/irix657/1/dist		          bootp():IRIX/irix657/1/stand/fx.ARCS or fx.64
+  irix@rbpi:i/5.3.txt		  IRIX/irix53/1/dist            bootp():IRIX/irix53/1/stand/fx.ARCS
+irix@rbpi:i/6.2.txt		  IRIX/irix62/1/dist              bootp():IRIX/irix62/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.3.txt		  IRIX/irix63/1/dist              bootp():IRIX/irix63/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.0.txt	  IRIX/irix650/1/dist              bootp():IRIX/irix650/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.7.txt	  IRIX/irix657/1/dist              bootp():IRIX/irix657/1/stand/fx.ARCS or fx.64
 irix@rbpi:i/6.5.22.txt    IRIX/6.5.22/ovl1/dist               bootp():IRIX/6.5.22/ovl1/stand/fx.ARCS or fx.64
 irix@rbpi:i/6.5.30.txt    IRIX/6.5.30/disc1/dist              bootp():IRIX/6.5.30/disc1/stand/fx.ARCS or fx.64
 
