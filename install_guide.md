@@ -120,6 +120,8 @@ If the installer program doesn't start, please check:<br>
 &ensp;- Indy, 5.3 and RBPi: bootp():IRIX/irix53/1/stand/sashARCS or bootp()rbpi:IRIX/irix53/1/stand/sashARCS<br>
 &ensp;- Octane2, 6.5.20 and RBPi: bootp():IRIX/6.5.30/disc1/stand/sash64 or bootp()rbpi:IRIX/6.5.30/disc1/stand/sash64<br>
 &ensp;Check the directories of your IRIX version to find the right installer program.<br>
+&ensp;4. If you receive `Mounting file systems: WARNING: XFS: xlog_find_verify_log_record: need to backup mount: /dev/dsk/realroot on /root: I/O error mount: giving up on: /root` after the `Mounting file systems:` message, manually format the partition; in most of cases: `mkfs /dev/rdsk/dks0d1s0`
+
 <br>
 <h3>5. Formatting root partition using Inst installer program</h3>
 Select option "13. admin" --> "11. mkfs" --> (y)es --> yes --> "21. return" (numbers can change depending on the Inst version)<br>
@@ -320,6 +322,8 @@ You can remove conflicts using "conflicts" command or using "remove" command.<br
 <br>
 
 <h3>9. Sample videos</h3>
-https://www.youtube.com/watch?v=Y5GE6yKwDuI&list=PL7fOFTpu7rt0pGycf3D7yzQoeMjlup-tz
+https://www.youtube.com/watch?v=Y5GE6yKwDuI&list=PL7fOFTpu7rt0pGycf3D7yzQoeMjlup-tz <br/> 
+https://youtu.be/Zq6PQjL9LjA?t=331<br/> 
+https://www.youtube.com/watch?v=YNx7WQ_CdrM (Spanish)
 
 # Enjoy your IRIX installation!

@@ -37,7 +37,7 @@ Example of Reanimator's menu:<br>
 
 ```
  --------------------------------------------------- 
-| REANIMATOR server v1.1 - http://irix.mersisl.com/ |
+| REANIMATOR server v1.2.1 - http://irix.mersisl.com/ |
  --------------------------------------------------- 
 
 * enabled services *
@@ -46,12 +46,12 @@ sudo, ntp client, bootp, tfptp, rsh, ssh, sftp, anonymous FTP, NFS (versions 2, 
 * selections file templates *
 selection file                    system software path            common partition command
 irix@rbpi:i/MIPSPro.txt
-irix@rbpi:i/5.3.txt               i/IRIX/irix53/1/dist            bootp():IRIX/irix53/1/stand/fx.ARCS
-irix@rbpi:i/6.2.txt               i/IRIX/irix62/1/dist            bootp():IRIX/irix62/1/stand/fx.ARCS or fx.64
-irix@rbpi:i/6.5.0.txt             i/IRIX/irix650/1/dist           bootp():IRIX/irix650/1/stand/fx.ARCS or fx.64
-irix@rbpi:i/6.5.7.txt             i/IRIX/irix657/1/dist           bootp():IRIX/irix657/1/stand/fx.ARCS or fx.64
-irix@rbpi:i/6.5.22.txt            i/IRIX/6.5.22/ovl1/dist         bootp():IRIX/6.5.22/ovl1/stand/fx.ARCS or fx.64
-irix@rbpi:i/6.5.30.txt            i/IRIX/6.5.30/disc1/dist        bootp():IRIX/6.5.30/disc1/stand/fx.ARCS or fx.64
+irix@rbpi:i/5.3.txt               IRIX/irix53/1/dist            bootp():IRIX/irix53/1/stand/fx.ARCS
+irix@rbpi:i/6.2.txt               IRIX/irix62/1/dist            bootp():IRIX/irix62/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.0.txt             IRIX/irix650/1/dist           bootp():IRIX/irix650/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.7.txt             IRIX/irix657/1/dist           bootp():IRIX/irix657/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.22.txt            IRIX/6.5.22/ovl1/dist         bootp():IRIX/6.5.22/ovl1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.30.txt            IRIX/6.5.30/disc1/dist        bootp():IRIX/6.5.30/disc1/stand/fx.ARCS or fx.64
 
 name of the server: rbpi(Raspberry Pi 192.168.9.100) or debian(VirtualBox 192.168.9.101)
 Default clients defined in /etc/bootptab and /etc/hosts: IRIS:ip=192.168.9.1 and IRIS2:ip=192.168.9.2
