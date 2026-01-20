@@ -4,7 +4,7 @@ Last update: 2024/08/23
 # Reanimator
 <img alt="REANIMATOR.jpg" src="REANIMATOR.jpg" align="middle"><br>
 <br>
-Reanimator allows Silicon Graphics IRIX network installation using a Raspberry Pi or VirtualBox<br>
+Reanimator allows Silicon Graphics IRIX network installation using a Raspberry Pi (tested in Pi3/4/400 versions) or VirtualBox<br>
 <br>
 Download link: https://mega.nz/folder/7jJGlSSS#d25XyA8RhKJyoU2uSrlasw<br>
 <br>
@@ -62,6 +62,12 @@ Tested sgi models:
     <td>5.3</td>
     <td>VisualCortexLab</td>
     <td>2024-08-23</td>
+  </tr>
+  <tr>
+    <td>O2 R5000 300 MHz</td>
+    <td>6.5.22</td>
+    <td>kawa</td>
+    <td>2026-01-19</td>
   </tr>
 </table>
 <br>
