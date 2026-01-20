@@ -36,22 +36,23 @@
 Example of Reanimator's menu:<br>
 
 ```
- --------------------------------------------------- 
-| REANIMATOR server v1.2.1 - http://irix.mersisl.com/ |
- --------------------------------------------------- 
+ ---------------------------------------------------- 
+| REANIMATOR server v1.2.4 - http://irix.mersisl.com/ |
+ ---------------------------------------------------- 
 
 * enabled services *
-sudo, ntp client, bootp, tfptp, rsh, ssh, sftp, anonymous FTP, NFS (versions 2, 3, 4, 4.1, 4.2), Samba, AppleTalk
+sudo, ntp client, bootp, tfptp, rsh, ssh, sftp, anonymous FTP, NFS (versions 2, 3), Samba, AppleTalk
 
 * selections file templates *
-selection file                    system software path            common partition command
+selections file			    remote directory for installer	common partition command
 irix@rbpi:i/MIPSPro.txt
-irix@rbpi:i/5.3.txt               IRIX/irix53/1/dist            bootp():IRIX/irix53/1/stand/fx.ARCS
-irix@rbpi:i/6.2.txt               IRIX/irix62/1/dist            bootp():IRIX/irix62/1/stand/fx.ARCS or fx.64
-irix@rbpi:i/6.5.0.txt             IRIX/irix650/1/dist           bootp():IRIX/irix650/1/stand/fx.ARCS or fx.64
-irix@rbpi:i/6.5.7.txt             IRIX/irix657/1/dist           bootp():IRIX/irix657/1/stand/fx.ARCS or fx.64
-irix@rbpi:i/6.5.22.txt            IRIX/6.5.22/ovl1/dist         bootp():IRIX/6.5.22/ovl1/stand/fx.ARCS or fx.64
-irix@rbpi:i/6.5.30.txt            IRIX/6.5.30/disc1/dist        bootp():IRIX/6.5.30/disc1/stand/fx.ARCS or fx.64
+irix@rbpi:i/5.3.txt		  IRIX/irix53/1/dist		          bootp():IRIX/irix53/1/stand/fx.ARCS
+irix@rbpi:i/6.2.txt		  IRIX/irix62/1/dist		          bootp():IRIX/irix62/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.3.txt		  IRIX/irix63/1/dist		          bootp():IRIX/irix63/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.0.txt	  IRIX/irix650/1/dist		          bootp():IRIX/irix650/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.7.txt	  IRIX/irix657/1/dist		          bootp():IRIX/irix657/1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.22.txt  IRIX/6.5.22/ovl1/dist		        bootp():IRIX/6.5.22/ovl1/stand/fx.ARCS or fx.64
+irix@rbpi:i/6.5.30.txt  IRIX/6.5.30/disc1/dist		      bootp():IRIX/6.5.30/disc1/stand/fx.ARCS or fx.64
 
 name of the server: rbpi(Raspberry Pi 192.168.9.100) or debian(VirtualBox 192.168.9.101)
 Default clients defined in /etc/bootptab and /etc/hosts: IRIS:ip=192.168.9.1 and IRIS2:ip=192.168.9.2
@@ -61,10 +62,12 @@ Default clients defined in /etc/bootptab and /etc/hosts: IRIS:ip=192.168.9.1 and
 2. Download menu
 3. Automount ISO images menu
 4. Mount /dev/sda1 menu (Raspberry Pi only)
-5. tcpser menu - emulate a Hayes compatible modem
+5. tcpser menu - emulate a Hayes compatible modem (experimental)
 6. Diskless workstation menu
+7. FujitNet menu (Raspberry Pi only)
+8. Custom menu
 
-10. Get Reanimator scripts updated from the Internet
+10. Get Reanimator *scripts* updated from the Internet
 11. Update this system
 12. Reboot this system
 13. Shut down this system
