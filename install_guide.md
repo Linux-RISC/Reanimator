@@ -322,6 +322,8 @@ You can remove conflicts using "conflicts" command or using "remove" command.<br
 <br>
 
 <h3>9. Sample videos</h3>
-https://www.youtube.com/watch?v=Y5GE6yKwDuI&list=PL7fOFTpu7rt0pGycf3D7yzQoeMjlup-tz
+https://www.youtube.com/watch?v=Y5GE6yKwDuI&list=PL7fOFTpu7rt0pGycf3D7yzQoeMjlup-tz <br/> 
+https://youtu.be/Zq6PQjL9LjA?t=331<br/> 
+https://www.youtube.com/watch?v=YNx7WQ_CdrM (Spanish)
 
 # Enjoy your IRIX installation!
